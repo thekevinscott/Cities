@@ -1,0 +1,187 @@
+@font-face {
+font-family: 'LeagueGothic';
+src: url('fonts/league_gothic/league_gothic-webfont.eot');
+src: local('☺'), url('fonts/league_gothic/league_gothic-webfont.woff') format('woff'), url('fonts/league_gothic/league_gothic-webfont.ttf') format('truetype'), url('fonts/league_gothic/league_gothic-webfont.svg#webfontkaozdcm3') format('svg');
+font-weight: normal;
+}
+
+body, html {
+	background: #EEE url(images/background.png);
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	text-shadow: 0px 1px 0 #FFF;
+	font-family: Times New Roman;
+}
+h1,h2,h3,h4,h5 {
+	padding: 0;
+	margin: 0;
+	font-weight: normal;
+}
+h1 {
+	font-family: LeagueGothic;
+	font-size: 600%;
+	position: absolute;
+	padding-left: 20px;
+	padding-top: 20px;
+	color: #FFFFFF;
+	text-shadow: 0 2px 2px black;
+}
+h2 {
+	font-size: 150%;
+}
+
+hr {
+	background: none;
+	border: none;
+	border-bottom: 1px solid #BBB;
+	width: 50%;
+	margin: 15px auto;
+}
+a {
+	color: #CC0000;
+	text-decoration: none;
+}
+img {
+	border: none;
+}
+.caption {
+	text-align: right;
+	margin: 0;
+	padding: 0;
+}
+
+#cities {
+	padding: 20px;
+}
+
+#articles {
+	float: left;
+	width: 170px;
+	padding-right: 20px;
+	border-right: 1px solid #BBB;
+	margin-right: 20px;
+	height: 648px;
+}
+#articles h2 {
+	text-align: center;
+	font-size: 140%;
+	width: 100%;
+	font-weight: bold;
+}
+#articles h3 {
+	font-size: 100%;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: Helvetica Neue;
+}
+#content {
+	float: right;
+	width: 770px;
+	height: 648px;	
+}
+#content #mainStory {
+	position: relative;
+	border-bottom: 1px solid #BBB;
+}
+#content #mainStory #mainStoryImage {
+	width: 500px;
+	float: left;
+	margin-right: 20px;
+	height: 355px;
+	overflow: hidden;
+	position: relative;
+}
+#content #mainStory #slideshow {
+	height: 333px;
+	overflow: hidden;
+	width: 500px;
+	position: relative;	
+	background: #DDD;
+}
+#content #mainStory #slideshow img {
+	display: block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+}
+#content #mainStory #mainStoryImage #options {
+	color: #333;
+	font-size: 10px;
+	margin: 5px 0 0 0;
+}
+#content #mainStory .credits {
+	float: right;
+	width: 30%;
+}
+#content #mainStory .controls {
+	width: 70%;
+	float: left;
+}
+#content #mainStory .controls a {
+	display: block;
+	float: left;
+	margin-right: 2px;
+	background: url(images/dot.png) no-repeat;
+	width: 12px;
+	height: 12px;
+}
+#content #mainStory .controls a:hover, #content #mainStory .controls a.current {
+	background: url(images/dotCurrent.png) no-repeat;
+}
+
+#content #mainStory h1 {
+	position: absolute;
+	top: 0px;
+	left: 10px;
+	z-index: 10;
+	font-family: LeagueGothic;
+	font-size: 600%;
+	color: #FFFFFF;
+	text-shadow: 0 2px 2px black;
+}
+#content #mainStory p {
+	margin: 0 0 10px 0;
+}
+#content #mainStory #cityIntroduction a {
+	float: right;
+	margin-top: -25px;
+}
+#content #mainStory .first {
+	font-family: Geneva;
+	font-size: 56px;
+	color: #000;
+	float: left;
+	margin: -10px 3px 0 0;
+	color: #000;
+	text-shadow: 0 0 5px #CCC;
+}
+#content #sections {
+	margin-top: 2px;
+	border-top: 2px solid #999;
+	padding-top: 15px;
+}
+#content #sections .story {
+	float: left;
+	width: 181px;
+	border-right: 1px solid #BBB;
+	padding: 0;
+	margin-right: 10px;
+	height: 205px;
+	overflow: hidden;
+}
+#content #sections .story h3 {
+	font-family: LeagueGothic;
+	margin-bottom: 0;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #CC0000;
+}
+#content #sections .story p {
+	margin: 5px 10px 0 0;
+}
+#content #sections .story:last-child {
+	border-right: none;
+}

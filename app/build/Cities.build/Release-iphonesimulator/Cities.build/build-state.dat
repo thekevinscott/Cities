@@ -1,0 +1,458 @@
+TCities
+v7
+r0
+t312852648.579030
+cCheck dependencies
+cProcessInfoPlistFile /www/Cities/build/Release-iphonesimulator/Cities.app/Info.plist Cities-Info.plist
+cCompileXIB /www/Cities/MainWindow.xib
+cCompileXIB /www/Cities/RootViewController.xib
+cCompileXIB /www/Cities/Classes/CityController.xib
+cCpResource build/Release-iphonesimulator/Cities.app/conference.png conference.png
+cCpResource build/Release-iphonesimulator/Cities.app/small.jpg small.jpg
+cCpResource build/Release-iphonesimulator/Cities.app/background.png background.png
+cCpResource build/Release-iphonesimulator/Cities.app/thised.png thised.png
+cCpResource build/Release-iphonesimulator/Cities.app/www www
+cProcessPCH /var/folders/uP/uPiio+UoGhC+MZOWSeIBw++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cities_Prefix-fwglgyauldehdcfhjezojipoxvhg/Cities_Prefix.pch.gch Cities_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Cities.build/Release-iphonesimulator/Cities.build/Objects-normal/i386/main.o /www/Cities/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Cities.build/Release-iphonesimulator/Cities.build/Objects-normal/i386/CitiesAppDelegate.o /www/Cities/Classes/CitiesAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Cities.build/Release-iphonesimulator/Cities.build/Objects-normal/i386/RootViewController.o /www/Cities/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Cities.build/Release-iphonesimulator/Cities.build/Objects-normal/i386/CityController.o /www/Cities/Classes/CityController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/Cities.build/Release-iphonesimulator/Cities.build/Objects-normal/i386/AddressAnnotation.o /www/Cities/Classes/AddressAnnotation.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd /www/Cities/build/Release-iphonesimulator/Cities.app/Cities normal i386
+cGenerateDSYMFile /www/Cities/build/Release-iphonesimulator/Cities.app.dSYM /www/Cities/build/Release-iphonesimulator/Cities.app/Cities
+cTouch /www/Cities/build/Release-iphonesimulator/Cities.app
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk
+c000000004C6C30170000000000000110
+t1282158615
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004C5A4DB60000000000295900
+t1280986550
+s2709760
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C5A4DB0000000000029D580
+t1280986544
+s2741632
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004C5A4DA10000000000001466
+t1280986529
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/MapKit.framework/Headers/MKAnnotation.h
+c000000004C6C3011000000000000027E
+t1282158609
+s638
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
+c000000004C6C301100000000000002FE
+t1282158609
+s766
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c000000004C6C303B000000000016DD50
+t1282158651
+s1498448
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004C6241ED00000000000009CD
+t1281507821
+s2509
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004C6242840000000001E228C0
+t1281507972
+s31598784
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk/usr/include/Availability.h
+c000000004C57A0390000000000001A5C
+t1280811065
+s6748
+
+N/var/folders/uP/uPiio+UoGhC+MZOWSeIBw++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cities_Prefix-fwglgyauldehdcfhjezojipoxvhg/Cities_Prefix.pch.gch
+t1291159847
+s14871568
+
+N/www/Cities/Cities_Prefix.pch
+c000000004CF1FFF2000000000000013E
+t1290928114
+s318
+i<Availability.h>
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/www/Cities/Classes/AddressAnnotation.h
+c000000004CF2043800000000000001CC
+t1290929208
+s460
+i<Foundation/Foundation.h>
+i<MapKit/MKAnnotation.h>
+
+N/www/Cities/Classes/AddressAnnotation.m
+c000000004CF2043E00000000000002F5
+t1290929214
+s757
+i"AddressAnnotation.h"
+
+N/www/Cities/Classes/CitiesAppDelegate.h
+c000000004CF1FFF200000000000001CA
+t1290928114
+s458
+i<UIKit/UIKit.h>
+
+N/www/Cities/Classes/CitiesAppDelegate.m
+c000000004CF1FFF20000000000000A93
+t1290928114
+s2707
+i"CitiesAppDelegate.h"
+i"RootViewController.h"
+
+N/www/Cities/Classes/CityController.h
+c000000004CF57C0500000000000001A0
+t1291156485
+s416
+i<UIKit/UIKit.h>
+i"AddressAnnotation.h"
+
+N/www/Cities/Classes/CityController.m
+c000000004CF57BFF00000000000008B9
+t1291156479
+s2233
+i"CityController.h"
+
+N/www/Cities/Classes/CityController.xib
+c000000004CF57A4300000000000044FD
+t1291156035
+s17661
+
+N/www/Cities/Classes/RootViewController.h
+c000000004CF20344000000000000016A
+t1290928964
+s362
+i<UIKit/UIKit.h>
+i<MapKit/MapKit.h>
+
+N/www/Cities/Classes/RootViewController.m
+c000000004CF5897300000000000013CC
+t1291159923
+s5068
+i"RootViewController.h"
+i"CityController.h"
+i"AddressAnnotation.h"
+
+N/www/Cities/MainWindow.xib
+c000000004CF1FFF20000000000005FF0
+t1290928114
+s24560
+
+N/www/Cities/RootViewController.xib
+c000000004CF222FF00000000000044AB
+t1290937087
+s17579
+
+N/www/Cities/background.png
+c000000004CF21A8E00000000000009A6
+t1290934926
+s2470
+
+N/www/Cities/build/Cities.build/Release-iphonesimulator/Cities.build/Objects-normal/i386/AddressAnnotation.o
+t1291159847
+s11032
+
+N/www/Cities/build/Cities.build/Release-iphonesimulator/Cities.build/Objects-normal/i386/Cities.LinkFileList
+c000000004CF58924000000000000020D
+t1291159844
+s525
+
+N/www/Cities/build/Cities.build/Release-iphonesimulator/Cities.build/Objects-normal/i386/CitiesAppDelegate.o
+t1291159847
+s49512
+
+N/www/Cities/build/Cities.build/Release-iphonesimulator/Cities.build/Objects-normal/i386/CityController.o
+t1291159847
+s39888
+
+N/www/Cities/build/Cities.build/Release-iphonesimulator/Cities.build/Objects-normal/i386/RootViewController.o
+t1291159847
+s50108
+
+N/www/Cities/build/Cities.build/Release-iphonesimulator/Cities.build/Objects-normal/i386/main.o
+t1291159847
+s6236
+
+N/www/Cities/build/Release-iphonesimulator/Cities.app
+t1291159848
+s442
+
+N/www/Cities/build/Release-iphonesimulator/Cities.app.dSYM
+t1291159848
+s102
+
+N/www/Cities/build/Release-iphonesimulator/Cities.app/Cities
+t1291159848
+s25964
+
+N/www/Cities/build/Release-iphonesimulator/Cities.app/CityController.nib
+t1291159846
+s1007
+
+N/www/Cities/build/Release-iphonesimulator/Cities.app/Info.plist
+t1291159844
+s656
+
+N/www/Cities/build/Release-iphonesimulator/Cities.app/MainWindow.nib
+t1291159845
+s1508
+
+N/www/Cities/build/Release-iphonesimulator/Cities.app/PkgInfo
+t1291159844
+s8
+
+N/www/Cities/build/Release-iphonesimulator/Cities.app/RootViewController.nib
+t1291159846
+s1559
+
+N/www/Cities/build/Release-iphonesimulator/Cities.app/background.png
+t1291159846
+s2470
+
+N/www/Cities/build/Release-iphonesimulator/Cities.app/conference.png
+t1291159846
+s993
+
+N/www/Cities/build/Release-iphonesimulator/Cities.app/small.jpg
+t1291159846
+s5814
+
+N/www/Cities/build/Release-iphonesimulator/Cities.app/thised.png
+t1291159846
+s4022
+
+N/www/Cities/build/Release-iphonesimulator/Cities.app/www
+t1291159846
+s578
+
+N/www/Cities/conference.png
+c000000004CEEDC7200000000000003E1
+t1290722418
+s993
+
+N/www/Cities/main.m
+c000000004CF1FFF20000000000000162
+t1290928114
+s354
+i<UIKit/UIKit.h>
+
+N/www/Cities/small.jpg
+c000000004CEEE16E00000000000016B6
+t1290723694
+s5814
+
+N/www/Cities/thised.png
+c000000004CF21E940000000000000FB6
+t1290935956
+s4022
+
+N/www/Cities/www
+c000000004CF579C90000000000000264
+t1291155913
+s612
+
+NCities-Info.plist
+c000000004CF5798500000000000003E6
+t1291155845
+s998
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies312852644#312852644#0(0"0(0#1#0"8609086816#0"0#
+
+CCompileC build/Cities.build/Release-iphonesimulator/Cities.build/Objects-normal/i386/AddressAnnotation.o /www/Cities/Classes/AddressAnnotation.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312852647.835788
+e312852647.921321
+r1
+xCompileC
+xbuild/Cities.build/Release-iphonesimulator/Cities.build/Objects-normal/i386/AddressAnnotation.o
+x/www/Cities/Classes/AddressAnnotation.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Compile /www/Cities/Classes/AddressAnnotation.m312852647#312852647#0(0"0(0#0#39"/www/Cities/Classes/AddressAnnotation.m8609423840#1690"    cd /www/Cities    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /www/Cities/build/Cities.build/Release-iphonesimulator/Cities.build/Cities-generated-files.hmap -I/www/Cities/build/Cities.build/Release-iphonesimulator/Cities.build/Cities-own-target-headers.hmap -I/www/Cities/build/Cities.build/Release-iphonesimulator/Cities.build/Cities-all-target-headers.hmap -iquote /www/Cities/build/Cities.build/Release-iphonesimulator/Cities.build/Cities-project-headers.hmap -F/www/Cities/build/Release-iphonesimulator -I/www/Cities/build/Release-iphonesimulator/include -I/www/Cities/build/Cities.build/Release-iphonesimulator/Cities.build/DerivedSources/i386 -I/www/Cities/build/Cities.build/Release-iphonesimulator/Cities.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/uP/uPiio+UoGhC+MZOWSeIBw++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cities_Prefix-fwglgyauldehdcfhjezojipoxvhg/Cities_Prefix.pch -c /www/Cities/Classes/AddressAnnotation.m -o /www/Cities/build/Cities.build/Release-iphonesimulator/Cities.build/Objects-normal/i386/AddressAnnotation.o0#
+
+CCompileC build/Cities.build/Release-iphonesimulator/Cities.build/Objects-normal/i386/CitiesAppDelegate.o /www/Cities/Classes/CitiesAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312852647.490698
+e312852647.662641
+r1
+xCompileC
+xbuild/Cities.build/Release-iphonesimulator/Cities.build/Objects-normal/i386/CitiesAppDelegate.o
+x/www/Cities/Classes/CitiesAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Compile /www/Cities/Classes/CitiesAppDelegate.m312852647#312852647#0(0"0(0#0#39"/www/Cities/Classes/CitiesAppDelegate.m8605562048#1690"    cd /www/Cities    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /www/Cities/build/Cities.build/Release-iphonesimulator/Cities.build/Cities-generated-files.hmap -I/www/Cities/build/Cities.build/Release-iphonesimulator/Cities.build/Cities-own-target-headers.hmap -I/www/Cities/build/Cities.build/Release-iphonesimulator/Cities.build/Cities-all-target-headers.hmap -iquote /www/Cities/build/Cities.build/Release-iphonesimulator/Cities.build/Cities-project-headers.hmap -F/www/Cities/build/Release-iphonesimulator -I/www/Cities/build/Release-iphonesimulator/include -I/www/Cities/build/Cities.build/Release-iphonesimulator/Cities.build/DerivedSources/i386 -I/www/Cities/build/Cities.build/Release-iphonesimulator/Cities.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/uP/uPiio+UoGhC+MZOWSeIBw++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cities_Prefix-fwglgyauldehdcfhjezojipoxvhg/Cities_Prefix.pch -c /www/Cities/Classes/CitiesAppDelegate.m -o /www/Cities/build/Cities.build/Release-iphonesimulator/Cities.build/Objects-normal/i386/CitiesAppDelegate.o0#
+
+CCompileC build/Cities.build/Release-iphonesimulator/Cities.build/Objects-normal/i386/CityController.o /www/Cities/Classes/CityController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312852647.662802
+e312852647.835693
+r1
+xCompileC
+xbuild/Cities.build/Release-iphonesimulator/Cities.build/Objects-normal/i386/CityController.o
+x/www/Cities/Classes/CityController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@44"Compile /www/Cities/Classes/CityController.m312852647#312852647#0(0"0(0#0#36"/www/Cities/Classes/CityController.m8610765728#1684"    cd /www/Cities    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /www/Cities/build/Cities.build/Release-iphonesimulator/Cities.build/Cities-generated-files.hmap -I/www/Cities/build/Cities.build/Release-iphonesimulator/Cities.build/Cities-own-target-headers.hmap -I/www/Cities/build/Cities.build/Release-iphonesimulator/Cities.build/Cities-all-target-headers.hmap -iquote /www/Cities/build/Cities.build/Release-iphonesimulator/Cities.build/Cities-project-headers.hmap -F/www/Cities/build/Release-iphonesimulator -I/www/Cities/build/Release-iphonesimulator/include -I/www/Cities/build/Cities.build/Release-iphonesimulator/Cities.build/DerivedSources/i386 -I/www/Cities/build/Cities.build/Release-iphonesimulator/Cities.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/uP/uPiio+UoGhC+MZOWSeIBw++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cities_Prefix-fwglgyauldehdcfhjezojipoxvhg/Cities_Prefix.pch -c /www/Cities/Classes/CityController.m -o /www/Cities/build/Cities.build/Release-iphonesimulator/Cities.build/Objects-normal/i386/CityController.o0#
+
+CCompileC build/Cities.build/Release-iphonesimulator/Cities.build/Objects-normal/i386/RootViewController.o /www/Cities/Classes/RootViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312852647.569592
+e312852647.854069
+r1
+xCompileC
+xbuild/Cities.build/Release-iphonesimulator/Cities.build/Objects-normal/i386/RootViewController.o
+x/www/Cities/Classes/RootViewController.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/www/Cities/Classes/RootViewController.m: In function '-[RootViewController mapView:viewForAnnotation:]':
+o/www/Cities/Classes/RootViewController.m:109: warning: passing argument 1 of 'setTag:' makes integer from pointer without a cast
+lSLF07#2@48"Compile /www/Cities/Classes/RootViewController.m312852647#312852647#0(235"/www/Cities/Classes/RootViewController.m: In function '-[RootViewController mapView:viewForAnnotation:]':/www/Cities/Classes/RootViewController.m:109: warning: passing argument 1 of 'setTag:' makes integer from pointer without a cast1(22@73"Passing argument 1 of 'setTag:' makes integer from pointer without a cast312852647#106#129#0(6@40"/www/Cities/Classes/RootViewController.m312852644#109#0#109#0#67"passing argument * of '*' makes integer from pointer without a cast0(0#0#40"/www/Cities/Classes/RootViewController.m8604934208#1692"    cd /www/Cities    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /www/Cities/build/Cities.build/Release-iphonesimulator/Cities.build/Cities-generated-files.hmap -I/www/Cities/build/Cities.build/Release-iphonesimulator/Cities.build/Cities-own-target-headers.hmap -I/www/Cities/build/Cities.build/Release-iphonesimulator/Cities.build/Cities-all-target-headers.hmap -iquote /www/Cities/build/Cities.build/Release-iphonesimulator/Cities.build/Cities-project-headers.hmap -F/www/Cities/build/Release-iphonesimulator -I/www/Cities/build/Release-iphonesimulator/include -I/www/Cities/build/Cities.build/Release-iphonesimulator/Cities.build/DerivedSources/i386 -I/www/Cities/build/Cities.build/Release-iphonesimulator/Cities.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/uP/uPiio+UoGhC+MZOWSeIBw++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cities_Prefix-fwglgyauldehdcfhjezojipoxvhg/Cities_Prefix.pch -c /www/Cities/Classes/RootViewController.m -o /www/Cities/build/Cities.build/Release-iphonesimulator/Cities.build/Objects-normal/i386/RootViewController.o0#
+
+CCompileC build/Cities.build/Release-iphonesimulator/Cities.build/Objects-normal/i386/main.o /www/Cities/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s312852647.489230
+e312852647.569485
+r1
+xCompileC
+xbuild/Cities.build/Release-iphonesimulator/Cities.build/Objects-normal/i386/main.o
+x/www/Cities/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@26"Compile /www/Cities/main.m312852647#312852647#0(0"0(0#0#18"/www/Cities/main.m8608326112#1656"    cd /www/Cities    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /www/Cities/build/Cities.build/Release-iphonesimulator/Cities.build/Cities-generated-files.hmap -I/www/Cities/build/Cities.build/Release-iphonesimulator/Cities.build/Cities-own-target-headers.hmap -I/www/Cities/build/Cities.build/Release-iphonesimulator/Cities.build/Cities-all-target-headers.hmap -iquote /www/Cities/build/Cities.build/Release-iphonesimulator/Cities.build/Cities-project-headers.hmap -F/www/Cities/build/Release-iphonesimulator -I/www/Cities/build/Release-iphonesimulator/include -I/www/Cities/build/Cities.build/Release-iphonesimulator/Cities.build/DerivedSources/i386 -I/www/Cities/build/Cities.build/Release-iphonesimulator/Cities.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -include /var/folders/uP/uPiio+UoGhC+MZOWSeIBw++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cities_Prefix-fwglgyauldehdcfhjezojipoxvhg/Cities_Prefix.pch -c /www/Cities/main.m -o /www/Cities/build/Cities.build/Release-iphonesimulator/Cities.build/Objects-normal/i386/main.o0#
+
+CCompileXIB /www/Cities/Classes/CityController.xib
+s312852645.465353
+e312852646.442691
+r1
+xCompileXIB
+x/www/Cities/Classes/CityController.xib
+lSLF07#2@37"CompileXIB Classes/CityController.xib312852645#312852646#0(0"0(0#0#38"/www/Cities/Classes/CityController.xib8610839168#506"    cd /www/Cities    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /www/Cities/build/Release-iphonesimulator/Cities.app/CityController.nib /www/Cities/Classes/CityController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /www/Cities/MainWindow.xib
+s312852644.592541
+e312852645.465261
+r1
+xCompileXIB
+x/www/Cities/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib312852644#312852645#0(0"0(0#0#26"/www/Cities/MainWindow.xib8604792832#490"    cd /www/Cities    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /www/Cities/build/Release-iphonesimulator/Cities.app/MainWindow.nib /www/Cities/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCompileXIB /www/Cities/RootViewController.xib
+s312852644.593317
+e312852646.102155
+r1
+xCompileXIB
+x/www/Cities/RootViewController.xib
+o2010-11-30 15:30:45.663 Interface Builder Cocoa Touch Tool[16615:5103] /SourceCache/GoogleMobileMaps_Sim/GoogleMobileMaps-263.5/googlenav/mac/TileStore.mm:189  WARNING:  database is incorrect version (expected:11, actual:10) (locale:en_US actual:en_US) /Users/thekevinscott/Library/Application Support/iPhone Simulator/User/Library/Caches/MapTiles/MapTiles.128.LoDPI.sqlitedb
+lSLF07#2@33"CompileXIB RootViewController.xib312852644#312852646#0(376"2010-11-30 15:30:45.663 Interface Builder Cocoa Touch Tool[16615:5103] /SourceCache/GoogleMobileMaps_Sim/GoogleMobileMaps-263.5/googlenav/mac/TileStore.mm:189  WARNING:  database is incorrect version (expected:11, actual:10) (locale:en_US actual:en_US) /Users/thekevinscott/Library/Application Support/iPhone Simulator/User/Library/Caches/MapTiles/MapTiles.128.LoDPI.sqlitedb0(0#0#34"/www/Cities/RootViewController.xib8602001088#506"    cd /www/Cities    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.1    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /www/Cities/build/Release-iphonesimulator/Cities.app/RootViewController.nib /www/Cities/RootViewController.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk0#
+
+CCpResource build/Release-iphonesimulator/Cities.app/background.png background.png
+s312852646.103717
+e312852646.118020
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Cities.app/background.png
+xbackground.png
+lSLF07#2@19"Copy background.png312852646#312852646#0(0"0(0#0#26"/www/Cities/background.png8610031168#413"    cd /www/Cities    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /www/Cities/background.png /www/Cities/build/Release-iphonesimulator/Cities.app0#
+
+CCpResource build/Release-iphonesimulator/Cities.app/conference.png conference.png
+s312852646.102329
+e312852646.109081
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Cities.app/conference.png
+xconference.png
+lSLF07#2@19"Copy conference.png312852646#312852646#0(0"0(0#0#26"/www/Cities/conference.png8610863520#413"    cd /www/Cities    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /www/Cities/conference.png /www/Cities/build/Release-iphonesimulator/Cities.app0#
+
+CCpResource build/Release-iphonesimulator/Cities.app/small.jpg small.jpg
+s312852646.103074
+e312852646.112034
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Cities.app/small.jpg
+xsmall.jpg
+lSLF07#2@14"Copy small.jpg312852646#312852646#0(0"0(0#0#21"/www/Cities/small.jpg8610364512#408"    cd /www/Cities    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /www/Cities/small.jpg /www/Cities/build/Release-iphonesimulator/Cities.app0#
+
+CCpResource build/Release-iphonesimulator/Cities.app/thised.png thised.png
+s312852646.105348
+e312852646.117056
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Cities.app/thised.png
+xthised.png
+lSLF07#2@15"Copy thised.png312852646#312852646#0(0"0(0#0#22"/www/Cities/thised.png8609331904#409"    cd /www/Cities    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /www/Cities/thised.png /www/Cities/build/Release-iphonesimulator/Cities.app0#
+
+CCpResource build/Release-iphonesimulator/Cities.app/www www
+s312852646.107095
+e312852646.667879
+r1
+xCpResource
+xbuild/Release-iphonesimulator/Cities.app/www
+xwww
+lSLF07#2@8"Copy www312852646#312852646#0(0"0(0#0#15"/www/Cities/www8608063488#402"    cd /www/Cities    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -strip-debug-symbols -resolve-src-symlinks /www/Cities/www /www/Cities/build/Release-iphonesimulator/Cities.app0#
+
+CGenerateDSYMFile /www/Cities/build/Release-iphonesimulator/Cities.app.dSYM /www/Cities/build/Release-iphonesimulator/Cities.app/Cities
+s312852648.499043
+e312852648.553507
+r1
+xGenerateDSYMFile
+x/www/Cities/build/Release-iphonesimulator/Cities.app.dSYM
+x/www/Cities/build/Release-iphonesimulator/Cities.app/Cities
+lSLF07#2@110"GenerateDSYMFile build/Release-iphonesimulator/Cities.app.dSYM build/Release-iphonesimulator/Cities.app/Cities312852648#312852648#0(0"0(0#0#59"/www/Cities/build/Release-iphonesimulator/Cities.app/Cities8592178368#303"    cd /www/Cities    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /www/Cities/build/Release-iphonesimulator/Cities.app/Cities -o /www/Cities/build/Release-iphonesimulator/Cities.app.dSYM0#
+
+CLd /www/Cities/build/Release-iphonesimulator/Cities.app/Cities normal i386
+s312852647.921417
+e312852648.498936
+r1
+xLd
+x/www/Cities/build/Release-iphonesimulator/Cities.app/Cities
+xnormal
+xi386
+lSLF07#2@64"Link /www/Cities/build/Release-iphonesimulator/Cities.app/Cities312852647#312852648#0(0"0(0#0#0"8608272000#786"    cd /www/Cities    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -L/www/Cities/build/Release-iphonesimulator -F/www/Cities/build/Release-iphonesimulator -filelist /www/Cities/build/Cities.build/Release-iphonesimulator/Cities.build/Objects-normal/i386/Cities.LinkFileList -mmacosx-version-min=10.6 -Xlinker -objc_abi_version -Xlinker 2 -framework Foundation -framework UIKit -framework CoreGraphics -framework MapKit -o /www/Cities/build/Release-iphonesimulator/Cities.app/Cities0#
+
+CProcessInfoPlistFile /www/Cities/build/Release-iphonesimulator/Cities.app/Info.plist Cities-Info.plist
+s312852644.582086
+e312852644.592449
+r1
+xProcessInfoPlistFile
+x/www/Cities/build/Release-iphonesimulator/Cities.app/Info.plist
+xCities-Info.plist
+lSLF07#2@25"Process Cities-Info.plist312852644#312852644#0(0"0(0#0#29"/www/Cities/Cities-Info.plist8609088160#399"    cd /www/Cities    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Cities-Info.plist -genpkginfo /www/Cities/build/Release-iphonesimulator/Cities.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /www/Cities/build/Release-iphonesimulator/Cities.app/Info.plist0#
+
+CProcessPCH /var/folders/uP/uPiio+UoGhC+MZOWSeIBw++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cities_Prefix-fwglgyauldehdcfhjezojipoxvhg/Cities_Prefix.pch.gch Cities_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s312852646.668006
+e312852647.489077
+r1
+xProcessPCH
+x/var/folders/uP/uPiio+UoGhC+MZOWSeIBw++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cities_Prefix-fwglgyauldehdcfhjezojipoxvhg/Cities_Prefix.pch.gch
+xCities_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@28"Precompile Cities_Prefix.pch312852646#312852647#0(0"0(0#0#29"/www/Cities/Cities_Prefix.pch8610095648#1574"    cd /www/Cities    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.1.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=40100 -iquote /www/Cities/build/Cities.build/Release-iphonesimulator/Cities.build/Cities-generated-files.hmap -I/www/Cities/build/Cities.build/Release-iphonesimulator/Cities.build/Cities-own-target-headers.hmap -I/www/Cities/build/Cities.build/Release-iphonesimulator/Cities.build/Cities-all-target-headers.hmap -iquote /www/Cities/build/Cities.build/Release-iphonesimulator/Cities.build/Cities-project-headers.hmap -F/www/Cities/build/Release-iphonesimulator -I/www/Cities/build/Release-iphonesimulator/include -I/www/Cities/build/Cities.build/Release-iphonesimulator/Cities.build/DerivedSources/i386 -I/www/Cities/build/Cities.build/Release-iphonesimulator/Cities.build/DerivedSources -DNS_BLOCK_ASSERTIONS=1 -c /www/Cities/Cities_Prefix.pch -o /var/folders/uP/uPiio+UoGhC+MZOWSeIBw++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cities_Prefix-fwglgyauldehdcfhjezojipoxvhg/Cities_Prefix.pch.gch0#
+
+CTouch /www/Cities/build/Release-iphonesimulator/Cities.app
+s312852648.553649
+e312852648.578981
+r1
+xTouch
+x/www/Cities/build/Release-iphonesimulator/Cities.app
+lSLF07#2@58"Touch /www/Cities/build/Release-iphonesimulator/Cities.app312852648#312852648#0(0"0(0#0#0"8600514400#225"    cd /www/Cities    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /www/Cities/build/Release-iphonesimulator/Cities.app0#
+
