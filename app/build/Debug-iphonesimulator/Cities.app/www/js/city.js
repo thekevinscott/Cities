@@ -40,7 +40,7 @@ $.fn.extend({
 		
 		dropCap : function() {
 			return this.each(function(){
-				var el = $($(this).find('p')[0]);
+				var el = $($(this).find('*')[0]);
 				el.html('<span class="first">'+el.html().substring(0,1)+'</span>'+el.html().substring(1));
 			});
 		},
@@ -100,18 +100,18 @@ $.fn.extend({
 
 function run(data) {
 	city.data = data;
-	alert({});
-	alert(data);
 	//cityTitle = cityTitle.replace(' ','_');
 
 	//$.getScript('city_data/data.js', function() {
 
 
 		$('#title').writeText();
-				
-		$('#slideshow').slideshow(city.slideshow);
-		$('#introduction').writeText().dropCap();
-		
+
+//		$('#slideshow').slideshow(city.slideshow);
+
+	$('#introduction').writeText().dropCap();
+//	$('#introduction').writeText().dropCap();
+	
 		
 		$('#articles').writeStories({append:'<hr />'});
 		$('#sections').writeStories();

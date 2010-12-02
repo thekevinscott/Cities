@@ -14,9 +14,9 @@
 		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
 		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
 		28F335F11007B36200424DE2 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F335F01007B36200424DE2 /* RootViewController.xib */; };
+		3416E2DD12A8406B006AD977 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 3416E1C212A8406B006AD977 /* www */; };
 		3487262612A5D2D700BDC5FB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3487262512A5D2D700BDC5FB /* CoreData.framework */; };
 		3487263A12A5D45F00BDC5FB /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = 3487263912A5D45F00BDC5FB /* City.m */; };
-		34872B6212A6AC0D00BDC5FB /* www in Resources */ = {isa = PBXBuildFile; fileRef = 34872AA112A6AC0D00BDC5FB /* www */; };
 		349E8EDF12A237BC004CBADF /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 349E8EDE12A237BC004CBADF /* RootViewController.m */; };
 		349E8EE312A237CE004CBADF /* CityController.m in Sources */ = {isa = PBXBuildFile; fileRef = 349E8EE112A237CE004CBADF /* CityController.m */; };
 		349E8EE412A237CE004CBADF /* CityController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 349E8EE212A237CE004CBADF /* CityController.xib */; };
@@ -38,10 +38,10 @@
 		28AD735F0D9D9599002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
 		28F335F01007B36200424DE2 /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3416E1C212A8406B006AD977 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 		3487262512A5D2D700BDC5FB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		3487263812A5D45F00BDC5FB /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
 		3487263912A5D45F00BDC5FB /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
-		34872AA112A6AC0D00BDC5FB /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 		349E8EDD12A237BC004CBADF /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		349E8EDE12A237BC004CBADF /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		349E8EE012A237CE004CBADF /* CityController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityController.h; sourceTree = "<group>"; };
@@ -100,7 +100,7 @@
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				34872AA112A6AC0D00BDC5FB /* www */,
+				3416E1C212A8406B006AD977 /* www */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
 				29B97317FDCFA39411CA2CEA /* Resources */,
@@ -201,7 +201,7 @@
 				349E8F9212A23C52004CBADF /* conference.png in Resources */,
 				349E8F9312A23C52004CBADF /* small.jpg in Resources */,
 				349E917D12A25627004CBADF /* thised.png in Resources */,
-				34872B6212A6AC0D00BDC5FB /* www in Resources */,
+				3416E2DD12A8406B006AD977 /* www in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

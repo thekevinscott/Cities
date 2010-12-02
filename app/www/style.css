@@ -12,7 +12,8 @@ body, html {
 	padding: 0;
 	margin: 0;
 	text-shadow: 0px 1px 0 #FFF;
-	font-family: Times New Roman;
+	font-family: Georgia,"Times New Roman",Times,serif;
+	
 }
 h1,h2,h3,h4,h5 {
 	padding: 0;
@@ -151,14 +152,18 @@ img {
 	float: right;
 	margin-top: -25px;
 }
-#content #mainStory .first {
-	font-family: Geneva;
-	font-size: 56px;
-	color: #000;
+#content #mainStory .dropCap {
+	font-size: 36px;
 	float: left;
-	margin: -10px 3px 0 0;
-	color: #000;
-	text-shadow: 0 0 5px #CCC;
+	line-height: 25px;
+	padding: 16px 0 19px 2px;
+	margin-right: 7px;
+	text-align: center;
+	display: block;
+	vertical-align: middle;
+	width: 58px;
+	color: #FFF;
+	background: url(images/dropCap.gif) no-repeat;
 }
 #content #sections {
 	margin-top: 2px;
