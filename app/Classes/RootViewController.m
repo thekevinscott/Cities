@@ -12,7 +12,7 @@
 
 @implementation RootViewController
 
-@synthesize mapview, cities, city;
+@synthesize mapview, cities;
 @synthesize managedObjectContext;
 
 -(CLLocationCoordinate2D) addressLocation:(NSString *)address {
@@ -49,11 +49,16 @@
 	
 	// will this cause a memory leak? Do I need to release this somehow?
 	
-	[cities addObject: [[City alloc] initWithCityAndStateAndLocation:@"New York" state:@"New York" locationString:@"40.7143528,-74.0059731"]];
+	City *city;
+	city = [[City alloc] initWithCityAndStateAndLocation:@"New York" state:@"New York" locationString:@"40.7143528,-74.0059731"];
+	[cities addObject: city];
+	[city release];
+	
 	[cities addObject: [[City alloc] initWithCityAndStateAndLocation:@"Los Angeles" state:@"California" locationString:@"34.0522342,-118.2436849"]];
 	[cities addObject: [[City alloc] initWithCityAndStateAndLocation:@"Chicago" state:@"Illinois" locationString:@"41.8781136,-87.6297982"]];
 	[cities addObject: [[City alloc] initWithCityAndStateAndLocation:@"Houston" state:@"Texas" locationString:@"29.7628844,-95.3830615"]];
 	[cities addObject: [[City alloc] initWithCityAndStateAndLocation:@"Phoenix" state:@"Arizona" locationString:@"33.4483771,-112.0740373"]];
+	/*
 	[cities addObject: [[City alloc] initWithCityAndStateAndLocation:@"Philadelphia" state:@"Pennsylvania" locationString:@"39.9523350,-75.1637890"]];
 	[cities addObject: [[City alloc] initWithCityAndStateAndLocation:@"San Antonio" state:@"Texas" locationString:@"29.4241219,-98.4936282"]];
 	[cities addObject: [[City alloc] initWithCityAndStateAndLocation:@"San Diego" state:@"California" locationString:@"32.7153292,-117.1572551"]];
@@ -100,7 +105,7 @@
 	[cities addObject: [[City alloc] initWithCityAndStateAndLocation:@"Arlington" state:@"Texas" locationString:@"32.7356870,-97.1080656"]];
 	[cities addObject: [[City alloc] initWithCityAndStateAndLocation:@"Honolulu" state:@"Hawaii" locationString:@"21.3069444,-157.8583333"]];
 	
-	
+	*/
 	
 	
 	
@@ -186,6 +191,7 @@
 	
 	CityController *cv = [[CityController alloc] initWithNibName:@"CityController" bundle:nil];
 	cv.city = sender.tag;
+	self.navigationController.navigationBarHidden = true;
 	[self.navigationController pushViewController:cv animated:YES];
 	[cv release];
 }
@@ -219,7 +225,6 @@
 - (void)dealloc {
 	[managedObjectContext release];
 	
-	[city release];
 	[cities release];
 	[mapview release];
     [super dealloc];

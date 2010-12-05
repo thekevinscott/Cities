@@ -13,7 +13,6 @@
 
 @interface RootViewController : UIViewController <MKMapViewDelegate> {
 	NSMutableArray *cities;
-	City *city;
 	IBOutlet MKMapView *mapview;
     
     NSManagedObjectContext *managedObjectContext;
@@ -22,7 +21,6 @@
 
 @property(nonatomic, retain) IBOutlet MKMapView *mapview;
 @property(nonatomic, retain) NSMutableArray *cities;
-@property(nonatomic, retain) City *city;
 
 @property (nonatomic, retain) NSManagedObjectContext *managedObjectContext;
 

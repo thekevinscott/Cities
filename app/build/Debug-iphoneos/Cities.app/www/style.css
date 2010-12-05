@@ -6,13 +6,13 @@ font-weight: normal;
 }
 
 body, html {
-	background: #EEE url(images/background.png);
 	width: 100%;
 	height: 100%;
 	padding: 0;
 	margin: 0;
 	text-shadow: 0px 1px 0 #FFF;
-	font-family: Times New Roman;
+	font-family: Baskerville, serif;
+	background: #330000;
 }
 h1,h2,h3,h4,h5 {
 	padding: 0;
@@ -21,26 +21,28 @@ h1,h2,h3,h4,h5 {
 }
 h1 {
 	font-family: LeagueGothic;
-	font-size: 600%;
-	position: absolute;
-	padding-left: 20px;
-	padding-top: 20px;
-	color: #FFFFFF;
-	text-shadow: 0 2px 2px black;
+	font-size: 63px;
+	color: #555;
+    text-shadow: 0 -1px 0px #000;
+	text-align: center;
 }
 h2 {
 	font-size: 150%;
 }
-
+p {
+	line-height: 18px;
+	margin-top: 0;
+}
 hr {
 	background: none;
 	border: none;
-	border-bottom: 1px solid #BBB;
-	width: 50%;
-	margin: 15px auto;
+	border-top: 1px solid #dfdbd1;
+	border-bottom: 1px solid #f8f6f0;
+	width: 100%;
+	margin: 0 auto;
 }
-a {
-	color: #CC0000;
+a, a:visited {
+	color: #000;
 	text-decoration: none;
 }
 img {
@@ -51,11 +53,100 @@ img {
 	margin: 0;
 	padding: 0;
 }
+.dropCap {
+	font-family: Futura;
+	font-size: 36px;
+	float: left;
+	line-height: 25px;
+	padding: 16px 0 19px 2px;
+	margin: 7px 7px 0px 0;
+	text-align: center;
+	display: block;
+	vertical-align: middle;
+	width: 58px;
+	color: #eee;
+	background: url(images/dropCap.gif) no-repeat;
+}
 
 #cities {
-	padding: 20px;
-	display: none;
+	display: block;
+	width: 768px;
+	background: #eeeadf url(images/background.png);
+	margin: 0 auto;
+	min-height: 1024px;
 }
+
+#navBar {
+	background: url(images/navBar.png) no-repeat;
+	width: 44px;
+	height: 984px;
+	position: fixed;
+	border-right: 4px solid #ddd8cb;
+	padding-top: 20px;
+}
+#navBar a {
+	margin: 10px 5px;
+	display: block;
+}
+#contentWrapper {
+	position: relative;
+	margin-left: 48px;
+
+}
+#gradient {
+	height: 150px;
+	background: url(images/whiteGradient.png) repeat-x;
+	position: absolute;
+	width: 100%;
+	top: 0;
+	z-index: 14;
+}
+#content {
+	z-index: 15;
+	position: relative;
+	margin: 0 15px;
+}
+#feed {
+	border-right: 1px solid #dfdbd1;
+	float: left;
+	margin-top: 15px;
+	padding: 0 15px 0 0;
+	width: 165px;
+	
+}
+#articles {
+	border-left: 1px solid #f8f6f0;
+	padding: 0 15px; 
+	float: left;
+	margin-top: 15px;	
+	width: 478px;
+}
+#articles .img {
+	-webkit-box-shadow:inset 0 0 10px #000000;
+   -moz-box-shadow:inset 0 0 10px #000000;
+	background: url(photos/New_York_New_York/medium/2808032200.jpg) no-repeat;
+	width: 307px;
+	height: 197px;
+	float: left;
+	margin: 0 15px 2px 0;
+}
+#mainArticle {
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
 
 #articles {
 	float: left;
@@ -77,12 +168,14 @@ img {
 	text-transform: uppercase;
 	text-align: center;
 	font-family: Helvetica Neue;
+	color: #330000;
 }
-#content {
-	float: right;
-	width: 770px;
-	height: 648px;	
-}
+
+
+
+
+
+
 #content #mainStory {
 	position: relative;
 	border-bottom: 1px solid #BBB;
@@ -134,14 +227,18 @@ img {
 }
 
 #content #mainStory h1 {
-	position: absolute;
-	top: 0px;
-	left: 10px;
-	z-index: 10;
-	font-family: LeagueGothic;
-	font-size: 600%;
 	color: #FFFFFF;
-	text-shadow: 0 2px 2px black;
+    font-family: LeagueGothic;
+    font-size: 600%;
+    left: 0;
+    line-height: 70px;
+    padding-bottom: 16px;
+    padding-left: 10px;
+    position: absolute;
+    text-shadow: 0 2px 2px black;
+    top: 20px;
+    width: 500px;
+    z-index: 10;
 }
 #content #mainStory p {
 	margin: 0 0 10px 0;
@@ -149,15 +246,6 @@ img {
 #content #mainStory #cityIntroduction a {
 	float: right;
 	margin-top: -25px;
-}
-#content #mainStory .first {
-	font-family: Geneva;
-	font-size: 56px;
-	color: #000;
-	float: left;
-	margin: -10px 3px 0 0;
-	color: #000;
-	text-shadow: 0 0 5px #CCC;
 }
 #content #sections {
 	margin-top: 2px;
@@ -186,3 +274,4 @@ img {
 #content #sections .story:last-child {
 	border-right: none;
 }
+*/

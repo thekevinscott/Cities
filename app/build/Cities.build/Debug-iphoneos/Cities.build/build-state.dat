@@ -1,7 +1,7 @@
 TCities
 v7
 r0
-t312863885.127227
+t313237862.119330
 cCheck dependencies
 cCpResource build/Debug-iphoneos/Cities.app/ResourceRules.plist /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/ResourceRules.plist
 cProcessInfoPlistFile /www/Cities/app/build/Debug-iphoneos/Cities.app/Info.plist Cities-Info.plist
@@ -293,16 +293,16 @@ s757
 i"AddressAnnotation.h"
 
 N/www/Cities/app/Classes/CitiesAppDelegate.h
-c000000004CF59C6C00000000000001EA
-t1291164780
+c000000004CF652DB00000000000001EA
+t1291211483
 s490
 i<UIKit/UIKit.h>
 i<CoreData/CoreData.h>
 
 N/www/Cities/app/Classes/CitiesAppDelegate.m
-c000000004CF59DA50000000000000A94
-t1291165093
-s2708
+c000000004CF653E70000000000000AEE
+t1291211751
+s2798
 i"CitiesAppDelegate.h"
 i"RootViewController.h"
 
@@ -320,35 +320,36 @@ s2903
 i"City.h"
 
 N/www/Cities/app/Classes/CityController.h
-c000000004CF593B000000000000001B4
-t1291162544
-s436
+c000000004CF5CD0700000000000001FD
+t1291177223
+s509
 i<UIKit/UIKit.h>
 i"AddressAnnotation.h"
 
 N/www/Cities/app/Classes/CityController.m
-c000000004CF5B49D000000000000095C
-t1291170973
-s2396
+c000000004CF94643000000000000D499
+t1291404867
+s54425
 i"CityController.h"
 
 N/www/Cities/app/Classes/CityController.xib
-c000000004CF57A4300000000000044FD
-t1291156035
-s17661
+c000000004CFB389E0000000000004520
+t1291532446
+s17696
 
 N/www/Cities/app/Classes/RootViewController.h
-c000000004CF59D3D00000000000001FF
-t1291164989
-s511
+c000000004CF82753000000000000026A
+t1291331411
+s618
 i<UIKit/UIKit.h>
 i<MapKit/MapKit.h>
+i<CoreData/CoreData.h>
 i"City.h"
 
 N/www/Cities/app/Classes/RootViewController.m
-c000000004CF5B3260000000000002FF1
-t1291170598
-s12273
+c000000004CFB3D2E000000000000308A
+t1291533614
+s12426
 i"RootViewController.h"
 i"CityController.h"
 i"AddressAnnotation.h"
@@ -364,7 +365,7 @@ t1290937087
 s17579
 
 N/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Cities.xcent
-t1291160245
+t1291532974
 s418
 
 N/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv6/AddressAnnotation.o
@@ -372,8 +373,8 @@ t1291167759
 s11584
 
 N/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv6/Cities
-t1291171000
-s50040
+t1291533615
+s140588
 
 N/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv6/Cities.LinkFileList
 c000000004CF5A80D0000000000000254
@@ -381,7 +382,7 @@ t1291167757
 s596
 
 N/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv6/CitiesAppDelegate.o
-t1291167965
+t1291532970
 s52632
 
 N/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv6/City.o
@@ -389,12 +390,12 @@ t1291168169
 s45716
 
 N/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv6/CityController.o
-t1291171000
-s53316
+t1291532970
+s157120
 
 N/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv6/RootViewController.o
-t1291170611
-s76876
+t1291533615
+s60852
 
 N/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv6/main.o
 t1291167759
@@ -405,8 +406,8 @@ t1291167760
 s11464
 
 N/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv7/Cities
-t1291171000
-s45944
+t1291533615
+s140588
 
 N/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv7/Cities.LinkFileList
 c000000004CF5A80D0000000000000254
@@ -414,51 +415,51 @@ t1291167757
 s596
 
 N/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv7/CitiesAppDelegate.o
-t1291167966
-s52548
+t1291532973
+s52552
 
 N/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv7/City.o
 t1291168170
 s45504
 
 N/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv7/CityController.o
-t1291171000
-s53080
+t1291532973
+s156848
 
 N/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv7/RootViewController.o
-t1291170611
-s76864
+t1291533615
+s60644
 
 N/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv7/main.o
 t1291167759
 s6384
 
 N/www/Cities/app/build/Debug-iphoneos/Cities.app
-t1291171085
+t1291545060
 s578
 
 N/www/Cities/app/build/Debug-iphoneos/Cities.app.dSYM
-t1291171000
+t1291533616
 s102
 
 N/www/Cities/app/build/Debug-iphoneos/Cities.app/Cities
-t1291171000
-s113424
+t1291533615
+s298640
 
 N/www/Cities/app/build/Debug-iphoneos/Cities.app/CityController.nib
-t1291160242
+t1291532968
 s1007
 
 N/www/Cities/app/build/Debug-iphoneos/Cities.app/Info.plist
-t1291160240
-s846
+t1291532961
+s841
 
 N/www/Cities/app/build/Debug-iphoneos/Cities.app/MainWindow.nib
 t1291160241
 s1508
 
 N/www/Cities/app/build/Debug-iphoneos/Cities.app/PkgInfo
-t1291160240
+t1291532961
 s8
 
 N/www/Cities/app/build/Debug-iphoneos/Cities.app/ResourceRules.plist
@@ -486,7 +487,7 @@ t1291156049
 s4214
 
 N/www/Cities/app/build/Debug-iphoneos/Cities.app/www
-t1291171084
+t1291532967
 s408
 
 N/www/Cities/app/conference.png
@@ -511,8 +512,8 @@ t1290935956
 s4022
 
 N/www/Cities/app/www
-c000000004CF597AB00000000000001BA
-t1291163563
+c000000004CFAEA7400000000000001BA
+t1291512436
 s442
 
 N/www/Cities/background.png
@@ -669,22 +670,22 @@ t1291155913
 s612
 
 NCities-Info.plist
-c000000004CF5798500000000000003E6
-t1291155845
-s998
+c000000004CFB38A900000000000003E1
+t1291532457
+s993
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies312863884#312863884#0(105"[BWARN]warning: iPad only apps should not include an armv6 architecture (current ARCHS = "armv6 armv7").1(22@97"warning: iPad only apps should not include an armv6 architecture (current ARCHS = "armv6 armv7").312863884#18446744073709551615#0#0(1@0"0(0#1#0"8646132192#0"0#
+lSLF07#2@18"Check dependencies313237861#313237861#0(105"[BWARN]warning: iPad only apps should not include an armv6 architecture (current ARCHS = "armv6 armv7").1(22@97"warning: iPad only apps should not include an armv6 architecture (current ARCHS = "armv6 armv7").313237861#18446744073709551615#0#0(1@0"0(0#1#0"8623484960#0"0#
 
 CCodeSign /www/Cities/app/build/Debug-iphoneos/Cities.app
-s312863884.852354
-e312863885.127187
+s313237861.872451
+e313237862.118813
 r1
 xCodeSign
 x/www/Cities/app/build/Debug-iphoneos/Cities.app
 o/www/Cities/app/build/Debug-iphoneos/Cities.app: replacing existing signature
-lSLF07#2@40"CodeSign build/Debug-iphoneos/Cities.app312863884#312863885#0(78"/www/Cities/app/build/Debug-iphoneos/Cities.app: replacing existing signature0(0#0#47"/www/Cities/app/build/Debug-iphoneos/Cities.app8646957504#550"    cd /www/Cities/app    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Kevin Scott (UQ6JP655F6)" --resource-rules=/www/Cities/app/build/Debug-iphoneos/Cities.app/ResourceRules.plist --entitlements /www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Cities.xcent /www/Cities/app/build/Debug-iphoneos/Cities.app0#
+lSLF07#2@40"CodeSign build/Debug-iphoneos/Cities.app313237861#313237862#0(78"/www/Cities/app/build/Debug-iphoneos/Cities.app: replacing existing signature0(0#0#47"/www/Cities/app/build/Debug-iphoneos/Cities.app8622151904#550"    cd /www/Cities/app    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    setenv _CODESIGN_ALLOCATE_ /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/codesign_allocate    /usr/bin/codesign -f -s "iPhone Developer: Kevin Scott (UQ6JP655F6)" --resource-rules=/www/Cities/app/build/Debug-iphoneos/Cities.app/ResourceRules.plist --entitlements /www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Cities.xcent /www/Cities/app/build/Debug-iphoneos/Cities.app0#
 
 CCodeSign /www/Cities/build/Debug-iphoneos/Cities.app
 s312853380.245526
@@ -734,8 +735,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@47"Compile /www/Cities/Classes/CitiesAppDelegate.m312853044#312853044#0(0"0(0#0#39"/www/Cities/Classes/CitiesAppDelegate.m8611697728#1441"    cd /www/Cities    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /www/Cities/build/Cities.build/Debug-iphoneos/Cities.build/Cities-generated-files.hmap -I/www/Cities/build/Cities.build/Debug-iphoneos/Cities.build/Cities-own-target-headers.hmap -I/www/Cities/build/Cities.build/Debug-iphoneos/Cities.build/Cities-all-target-headers.hmap -iquote /www/Cities/build/Cities.build/Debug-iphoneos/Cities.build/Cities-project-headers.hmap -F/www/Cities/build/Debug-iphoneos -I/www/Cities/build/Debug-iphoneos/include -I/www/Cities/build/Cities.build/Debug-iphoneos/Cities.build/DerivedSources/armv6 -I/www/Cities/build/Cities.build/Debug-iphoneos/Cities.build/DerivedSources -include /var/folders/uP/uPiio+UoGhC+MZOWSeIBw++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cities_Prefix-gtvqapwswghrwuclbcjkujgfdtcz/Cities_Prefix.pch -c /www/Cities/Classes/CitiesAppDelegate.m -o /www/Cities/build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv6/CitiesAppDelegate.o0#
 
 CCompileC build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv6/CitiesAppDelegate.o /www/Cities/app/Classes/CitiesAppDelegate.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s312860765.588450
-e312860765.789172
+s313225768.677034
+e313225770.591597
 r1
 xCompileC
 xbuild/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv6/CitiesAppDelegate.o
@@ -744,7 +745,7 @@ xnormal
 xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@51"Compile /www/Cities/app/Classes/CitiesAppDelegate.m312860765#312860765#0(0"0(0#0#43"/www/Cities/app/Classes/CitiesAppDelegate.m8635113408#1485"    cd /www/Cities/app    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Cities-generated-files.hmap -I/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Cities-own-target-headers.hmap -I/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Cities-all-target-headers.hmap -iquote /www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Cities-project-headers.hmap -F/www/Cities/app/build/Debug-iphoneos -I/www/Cities/app/build/Debug-iphoneos/include -I/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/DerivedSources/armv6 -I/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/DerivedSources -include /var/folders/uP/uPiio+UoGhC+MZOWSeIBw++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cities_Prefix-blqoclamcxttfoctnitfzkudexgw/Cities_Prefix.pch -c /www/Cities/app/Classes/CitiesAppDelegate.m -o /www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv6/CitiesAppDelegate.o0#
+lSLF07#2@51"Compile /www/Cities/app/Classes/CitiesAppDelegate.m313225768#313225770#0(0"0(0#0#43"/www/Cities/app/Classes/CitiesAppDelegate.m8607909088#1485"    cd /www/Cities/app    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Cities-generated-files.hmap -I/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Cities-own-target-headers.hmap -I/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Cities-all-target-headers.hmap -iquote /www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Cities-project-headers.hmap -F/www/Cities/app/build/Debug-iphoneos -I/www/Cities/app/build/Debug-iphoneos/include -I/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/DerivedSources/armv6 -I/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/DerivedSources -include /var/folders/uP/uPiio+UoGhC+MZOWSeIBw++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cities_Prefix-blqoclamcxttfoctnitfzkudexgw/Cities_Prefix.pch -c /www/Cities/app/Classes/CitiesAppDelegate.m -o /www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv6/CitiesAppDelegate.o0#
 
 CCompileC build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv6/City.o /www/Cities/app/Classes/City.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s312860969.733981
@@ -773,8 +774,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@44"Compile /www/Cities/Classes/CityController.m312853379#312853379#0(0"0(0#0#36"/www/Cities/Classes/CityController.m8621914176#1435"    cd /www/Cities    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /www/Cities/build/Cities.build/Debug-iphoneos/Cities.build/Cities-generated-files.hmap -I/www/Cities/build/Cities.build/Debug-iphoneos/Cities.build/Cities-own-target-headers.hmap -I/www/Cities/build/Cities.build/Debug-iphoneos/Cities.build/Cities-all-target-headers.hmap -iquote /www/Cities/build/Cities.build/Debug-iphoneos/Cities.build/Cities-project-headers.hmap -F/www/Cities/build/Debug-iphoneos -I/www/Cities/build/Debug-iphoneos/include -I/www/Cities/build/Cities.build/Debug-iphoneos/Cities.build/DerivedSources/armv6 -I/www/Cities/build/Cities.build/Debug-iphoneos/Cities.build/DerivedSources -include /var/folders/uP/uPiio+UoGhC+MZOWSeIBw++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cities_Prefix-gtvqapwswghrwuclbcjkujgfdtcz/Cities_Prefix.pch -c /www/Cities/Classes/CityController.m -o /www/Cities/build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv6/CityController.o0#
 
 CCompileC build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv6/CityController.o /www/Cities/app/Classes/CityController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s312863800.651912
-e312863800.827600
+s313225770.588548
+e313225770.779340
 r1
 xCompileC
 xbuild/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv6/CityController.o
@@ -783,7 +784,7 @@ xnormal
 xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@48"Compile /www/Cities/app/Classes/CityController.m312863800#312863800#0(0"0(0#0#40"/www/Cities/app/Classes/CityController.m8642965920#1479"    cd /www/Cities/app    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Cities-generated-files.hmap -I/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Cities-own-target-headers.hmap -I/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Cities-all-target-headers.hmap -iquote /www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Cities-project-headers.hmap -F/www/Cities/app/build/Debug-iphoneos -I/www/Cities/app/build/Debug-iphoneos/include -I/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/DerivedSources/armv6 -I/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/DerivedSources -include /var/folders/uP/uPiio+UoGhC+MZOWSeIBw++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cities_Prefix-blqoclamcxttfoctnitfzkudexgw/Cities_Prefix.pch -c /www/Cities/app/Classes/CityController.m -o /www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv6/CityController.o0#
+lSLF07#2@48"Compile /www/Cities/app/Classes/CityController.m313225770#313225770#0(0"0(0#0#40"/www/Cities/app/Classes/CityController.m8601223168#1479"    cd /www/Cities/app    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Cities-generated-files.hmap -I/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Cities-own-target-headers.hmap -I/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Cities-all-target-headers.hmap -iquote /www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Cities-project-headers.hmap -F/www/Cities/app/build/Debug-iphoneos -I/www/Cities/app/build/Debug-iphoneos/include -I/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/DerivedSources/armv6 -I/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/DerivedSources -include /var/folders/uP/uPiio+UoGhC+MZOWSeIBw++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cities_Prefix-blqoclamcxttfoctnitfzkudexgw/Cities_Prefix.pch -c /www/Cities/app/Classes/CityController.m -o /www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv6/CityController.o0#
 
 CCompileC build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv6/RootViewController.o /www/Cities/Classes/RootViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s312853044.318099
@@ -803,8 +804,8 @@ o/www/Cities/Classes/RootViewController.m:125: warning: passing argument 1 of 's
 lSLF07#2@48"Compile /www/Cities/Classes/RootViewController.m312853044#312853044#0(465"/www/Cities/Classes/RootViewController.m: In function '-[RootViewController mapView:viewForAnnotation:]':/www/Cities/Classes/RootViewController.m:109: warning: passing argument 1 of 'setTag:' makes integer from pointer without a cast/www/Cities/Classes/RootViewController.m: In function '-[RootViewController annotationViewClick:]':/www/Cities/Classes/RootViewController.m:125: warning: passing argument 1 of 'setCity:' makes pointer from integer without a cast2(22@73"Passing argument 1 of 'setTag:' makes integer from pointer without a cast312853044#106#129#0(6@40"/www/Cities/Classes/RootViewController.m312852954#109#0#109#0#67"passing argument * of '*' makes integer from pointer without a cast0(22@74"Passing argument 1 of 'setCity:' makes pointer from integer without a cast312853044#335#130#0(6@40"/www/Cities/Classes/RootViewController.m312852954#125#0#125#0#0"0(0#0#40"/www/Cities/Classes/RootViewController.m8610565184#1443"    cd /www/Cities    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /www/Cities/build/Cities.build/Debug-iphoneos/Cities.build/Cities-generated-files.hmap -I/www/Cities/build/Cities.build/Debug-iphoneos/Cities.build/Cities-own-target-headers.hmap -I/www/Cities/build/Cities.build/Debug-iphoneos/Cities.build/Cities-all-target-headers.hmap -iquote /www/Cities/build/Cities.build/Debug-iphoneos/Cities.build/Cities-project-headers.hmap -F/www/Cities/build/Debug-iphoneos -I/www/Cities/build/Debug-iphoneos/include -I/www/Cities/build/Cities.build/Debug-iphoneos/Cities.build/DerivedSources/armv6 -I/www/Cities/build/Cities.build/Debug-iphoneos/Cities.build/DerivedSources -include /var/folders/uP/uPiio+UoGhC+MZOWSeIBw++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cities_Prefix-gtvqapwswghrwuclbcjkujgfdtcz/Cities_Prefix.pch -c /www/Cities/Classes/RootViewController.m -o /www/Cities/build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv6/RootViewController.o0#
 
 CCompileC build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv6/RootViewController.o /www/Cities/app/Classes/RootViewController.m normal armv6 objective-c com.apple.compilers.gcc.4_2
-s312863411.333354
-e312863411.625811
+s313226415.068793
+e313226415.420774
 r1
 xCompileC
 xbuild/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv6/RootViewController.o
@@ -814,10 +815,10 @@ xarmv6
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 o/www/Cities/app/Classes/RootViewController.m: In function '-[RootViewController mapView:viewForAnnotation:]':
-o/www/Cities/app/Classes/RootViewController.m:171: warning: passing argument 1 of 'setTag:' makes integer from pointer without a cast
+o/www/Cities/app/Classes/RootViewController.m:177: warning: passing argument 1 of 'setTag:' makes integer from pointer without a cast
 o/www/Cities/app/Classes/RootViewController.m: In function '-[RootViewController annotationViewClick:]':
-o/www/Cities/app/Classes/RootViewController.m:187: warning: passing argument 1 of 'setCity:' makes pointer from integer without a cast
-lSLF07#2@52"Compile /www/Cities/app/Classes/RootViewController.m312863411#312863411#0(481"/www/Cities/app/Classes/RootViewController.m: In function '-[RootViewController mapView:viewForAnnotation:]':/www/Cities/app/Classes/RootViewController.m:171: warning: passing argument 1 of 'setTag:' makes integer from pointer without a cast/www/Cities/app/Classes/RootViewController.m: In function '-[RootViewController annotationViewClick:]':/www/Cities/app/Classes/RootViewController.m:187: warning: passing argument 1 of 'setCity:' makes pointer from integer without a cast2(22@73"Passing argument 1 of 'setTag:' makes integer from pointer without a cast312863411#110#133#0(6@44"/www/Cities/app/Classes/RootViewController.m312863398#171#0#171#0#67"passing argument * of '*' makes integer from pointer without a cast0(22@74"Passing argument 1 of 'setCity:' makes pointer from integer without a cast312863411#347#134#0(6@44"/www/Cities/app/Classes/RootViewController.m312863398#187#0#187#0#0"0(0#0#44"/www/Cities/app/Classes/RootViewController.m8634529440#1487"    cd /www/Cities/app    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Cities-generated-files.hmap -I/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Cities-own-target-headers.hmap -I/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Cities-all-target-headers.hmap -iquote /www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Cities-project-headers.hmap -F/www/Cities/app/build/Debug-iphoneos -I/www/Cities/app/build/Debug-iphoneos/include -I/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/DerivedSources/armv6 -I/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/DerivedSources -include /var/folders/uP/uPiio+UoGhC+MZOWSeIBw++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cities_Prefix-blqoclamcxttfoctnitfzkudexgw/Cities_Prefix.pch -c /www/Cities/app/Classes/RootViewController.m -o /www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv6/RootViewController.o0#
+o/www/Cities/app/Classes/RootViewController.m:193: warning: passing argument 1 of 'setCity:' makes pointer from integer without a cast
+lSLF07#2@52"Compile /www/Cities/app/Classes/RootViewController.m313226415#313226415#0(481"/www/Cities/app/Classes/RootViewController.m: In function '-[RootViewController mapView:viewForAnnotation:]':/www/Cities/app/Classes/RootViewController.m:177: warning: passing argument 1 of 'setTag:' makes integer from pointer without a cast/www/Cities/app/Classes/RootViewController.m: In function '-[RootViewController annotationViewClick:]':/www/Cities/app/Classes/RootViewController.m:193: warning: passing argument 1 of 'setCity:' makes pointer from integer without a cast2(22@73"Passing argument 1 of 'setTag:' makes integer from pointer without a cast313226415#110#133#0(6@44"/www/Cities/app/Classes/RootViewController.m313226414#177#0#177#0#67"passing argument * of '*' makes integer from pointer without a cast0(22@74"Passing argument 1 of 'setCity:' makes pointer from integer without a cast313226415#347#134#0(6@44"/www/Cities/app/Classes/RootViewController.m313226414#193#0#193#0#0"0(0#0#44"/www/Cities/app/Classes/RootViewController.m8620567168#1487"    cd /www/Cities/app    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv6 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Cities-generated-files.hmap -I/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Cities-own-target-headers.hmap -I/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Cities-all-target-headers.hmap -iquote /www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Cities-project-headers.hmap -F/www/Cities/app/build/Debug-iphoneos -I/www/Cities/app/build/Debug-iphoneos/include -I/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/DerivedSources/armv6 -I/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/DerivedSources -include /var/folders/uP/uPiio+UoGhC+MZOWSeIBw++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cities_Prefix-blqoclamcxttfoctnitfzkudexgw/Cities_Prefix.pch -c /www/Cities/app/Classes/RootViewController.m -o /www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv6/RootViewController.o0#
 
 CCompileC build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv6/main.o /www/Cities/app/main.m normal armv6 objective-c com.apple.compilers.gcc.4_2
 s312860559.274821
@@ -885,8 +886,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@47"Compile /www/Cities/Classes/CitiesAppDelegate.m312853044#312853044#0(0"0(0#0#39"/www/Cities/Classes/CitiesAppDelegate.m8611821984#1441"    cd /www/Cities    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /www/Cities/build/Cities.build/Debug-iphoneos/Cities.build/Cities-generated-files.hmap -I/www/Cities/build/Cities.build/Debug-iphoneos/Cities.build/Cities-own-target-headers.hmap -I/www/Cities/build/Cities.build/Debug-iphoneos/Cities.build/Cities-all-target-headers.hmap -iquote /www/Cities/build/Cities.build/Debug-iphoneos/Cities.build/Cities-project-headers.hmap -F/www/Cities/build/Debug-iphoneos -I/www/Cities/build/Debug-iphoneos/include -I/www/Cities/build/Cities.build/Debug-iphoneos/Cities.build/DerivedSources/armv7 -I/www/Cities/build/Cities.build/Debug-iphoneos/Cities.build/DerivedSources -include /var/folders/uP/uPiio+UoGhC+MZOWSeIBw++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cities_Prefix-bbygkwxrrdgahafilvqpwhwdvtsu/Cities_Prefix.pch -c /www/Cities/Classes/CitiesAppDelegate.m -o /www/Cities/build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv7/CitiesAppDelegate.o0#
 
 CCompileC build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv7/CitiesAppDelegate.o /www/Cities/app/Classes/CitiesAppDelegate.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s312860765.939359
-e312860766.076677
+s313225770.591919
+e313225773.395136
 r1
 xCompileC
 xbuild/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv7/CitiesAppDelegate.o
@@ -895,7 +896,7 @@ xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@51"Compile /www/Cities/app/Classes/CitiesAppDelegate.m312860765#312860766#0(0"0(0#0#43"/www/Cities/app/Classes/CitiesAppDelegate.m8632439936#1485"    cd /www/Cities/app    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Cities-generated-files.hmap -I/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Cities-own-target-headers.hmap -I/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Cities-all-target-headers.hmap -iquote /www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Cities-project-headers.hmap -F/www/Cities/app/build/Debug-iphoneos -I/www/Cities/app/build/Debug-iphoneos/include -I/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/DerivedSources/armv7 -I/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/DerivedSources -include /var/folders/uP/uPiio+UoGhC+MZOWSeIBw++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cities_Prefix-auskwqynjbbkhidcdrjshjhsacuo/Cities_Prefix.pch -c /www/Cities/app/Classes/CitiesAppDelegate.m -o /www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv7/CitiesAppDelegate.o0#
+lSLF07#2@51"Compile /www/Cities/app/Classes/CitiesAppDelegate.m313225770#313225773#0(0"0(0#0#43"/www/Cities/app/Classes/CitiesAppDelegate.m8610369696#1485"    cd /www/Cities/app    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Cities-generated-files.hmap -I/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Cities-own-target-headers.hmap -I/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Cities-all-target-headers.hmap -iquote /www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Cities-project-headers.hmap -F/www/Cities/app/build/Debug-iphoneos -I/www/Cities/app/build/Debug-iphoneos/include -I/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/DerivedSources/armv7 -I/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/DerivedSources -include /var/folders/uP/uPiio+UoGhC+MZOWSeIBw++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cities_Prefix-auskwqynjbbkhidcdrjshjhsacuo/Cities_Prefix.pch -c /www/Cities/app/Classes/CitiesAppDelegate.m -o /www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv7/CitiesAppDelegate.o0#
 
 CCompileC build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv7/City.o /www/Cities/app/Classes/City.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s312860970.209590
@@ -924,8 +925,8 @@ xcom.apple.compilers.gcc.4_2
 lSLF07#2@44"Compile /www/Cities/Classes/CityController.m312853379#312853379#0(0"0(0#0#36"/www/Cities/Classes/CityController.m8619248672#1435"    cd /www/Cities    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /www/Cities/build/Cities.build/Debug-iphoneos/Cities.build/Cities-generated-files.hmap -I/www/Cities/build/Cities.build/Debug-iphoneos/Cities.build/Cities-own-target-headers.hmap -I/www/Cities/build/Cities.build/Debug-iphoneos/Cities.build/Cities-all-target-headers.hmap -iquote /www/Cities/build/Cities.build/Debug-iphoneos/Cities.build/Cities-project-headers.hmap -F/www/Cities/build/Debug-iphoneos -I/www/Cities/build/Debug-iphoneos/include -I/www/Cities/build/Cities.build/Debug-iphoneos/Cities.build/DerivedSources/armv7 -I/www/Cities/build/Cities.build/Debug-iphoneos/Cities.build/DerivedSources -include /var/folders/uP/uPiio+UoGhC+MZOWSeIBw++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cities_Prefix-bbygkwxrrdgahafilvqpwhwdvtsu/Cities_Prefix.pch -c /www/Cities/Classes/CityController.m -o /www/Cities/build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv7/CityController.o0#
 
 CCompileC build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv7/CityController.o /www/Cities/app/Classes/CityController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s312863800.707902
-e312863800.822039
+s313225773.415493
+e313225773.641375
 r1
 xCompileC
 xbuild/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv7/CityController.o
@@ -934,7 +935,7 @@ xnormal
 xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
-lSLF07#2@48"Compile /www/Cities/app/Classes/CityController.m312863800#312863800#0(0"0(0#0#40"/www/Cities/app/Classes/CityController.m8642545792#1479"    cd /www/Cities/app    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Cities-generated-files.hmap -I/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Cities-own-target-headers.hmap -I/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Cities-all-target-headers.hmap -iquote /www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Cities-project-headers.hmap -F/www/Cities/app/build/Debug-iphoneos -I/www/Cities/app/build/Debug-iphoneos/include -I/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/DerivedSources/armv7 -I/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/DerivedSources -include /var/folders/uP/uPiio+UoGhC+MZOWSeIBw++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cities_Prefix-auskwqynjbbkhidcdrjshjhsacuo/Cities_Prefix.pch -c /www/Cities/app/Classes/CityController.m -o /www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv7/CityController.o0#
+lSLF07#2@48"Compile /www/Cities/app/Classes/CityController.m313225773#313225773#0(0"0(0#0#40"/www/Cities/app/Classes/CityController.m8608586080#1479"    cd /www/Cities/app    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Cities-generated-files.hmap -I/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Cities-own-target-headers.hmap -I/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Cities-all-target-headers.hmap -iquote /www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Cities-project-headers.hmap -F/www/Cities/app/build/Debug-iphoneos -I/www/Cities/app/build/Debug-iphoneos/include -I/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/DerivedSources/armv7 -I/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/DerivedSources -include /var/folders/uP/uPiio+UoGhC+MZOWSeIBw++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cities_Prefix-auskwqynjbbkhidcdrjshjhsacuo/Cities_Prefix.pch -c /www/Cities/app/Classes/CityController.m -o /www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv7/CityController.o0#
 
 CCompileC build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv7/RootViewController.o /www/Cities/Classes/RootViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s312853044.782324
@@ -954,8 +955,8 @@ o/www/Cities/Classes/RootViewController.m:125: warning: passing argument 1 of 's
 lSLF07#2@48"Compile /www/Cities/Classes/RootViewController.m312853044#312853044#0(465"/www/Cities/Classes/RootViewController.m: In function '-[RootViewController mapView:viewForAnnotation:]':/www/Cities/Classes/RootViewController.m:109: warning: passing argument 1 of 'setTag:' makes integer from pointer without a cast/www/Cities/Classes/RootViewController.m: In function '-[RootViewController annotationViewClick:]':/www/Cities/Classes/RootViewController.m:125: warning: passing argument 1 of 'setCity:' makes pointer from integer without a cast2(22@73"Passing argument 1 of 'setTag:' makes integer from pointer without a cast312853044#106#129#0(6@40"/www/Cities/Classes/RootViewController.m312852954#109#0#109#0#67"passing argument * of '*' makes integer from pointer without a cast0(22@74"Passing argument 1 of 'setCity:' makes pointer from integer without a cast312853044#335#130#0(6@40"/www/Cities/Classes/RootViewController.m312852954#125#0#125#0#0"0(0#0#40"/www/Cities/Classes/RootViewController.m8610539136#1443"    cd /www/Cities    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /www/Cities/build/Cities.build/Debug-iphoneos/Cities.build/Cities-generated-files.hmap -I/www/Cities/build/Cities.build/Debug-iphoneos/Cities.build/Cities-own-target-headers.hmap -I/www/Cities/build/Cities.build/Debug-iphoneos/Cities.build/Cities-all-target-headers.hmap -iquote /www/Cities/build/Cities.build/Debug-iphoneos/Cities.build/Cities-project-headers.hmap -F/www/Cities/build/Debug-iphoneos -I/www/Cities/build/Debug-iphoneos/include -I/www/Cities/build/Cities.build/Debug-iphoneos/Cities.build/DerivedSources/armv7 -I/www/Cities/build/Cities.build/Debug-iphoneos/Cities.build/DerivedSources -include /var/folders/uP/uPiio+UoGhC+MZOWSeIBw++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cities_Prefix-bbygkwxrrdgahafilvqpwhwdvtsu/Cities_Prefix.pch -c /www/Cities/Classes/RootViewController.m -o /www/Cities/build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv7/RootViewController.o0#
 
 CCompileC build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv7/RootViewController.o /www/Cities/app/Classes/RootViewController.m normal armv7 objective-c com.apple.compilers.gcc.4_2
-s312863411.407493
-e312863411.606113
+s313226415.132946
+e313226415.492060
 r1
 xCompileC
 xbuild/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv7/RootViewController.o
@@ -965,10 +966,10 @@ xarmv7
 xobjective-c
 xcom.apple.compilers.gcc.4_2
 o/www/Cities/app/Classes/RootViewController.m: In function '-[RootViewController mapView:viewForAnnotation:]':
-o/www/Cities/app/Classes/RootViewController.m:171: warning: passing argument 1 of 'setTag:' makes integer from pointer without a cast
+o/www/Cities/app/Classes/RootViewController.m:177: warning: passing argument 1 of 'setTag:' makes integer from pointer without a cast
 o/www/Cities/app/Classes/RootViewController.m: In function '-[RootViewController annotationViewClick:]':
-o/www/Cities/app/Classes/RootViewController.m:187: warning: passing argument 1 of 'setCity:' makes pointer from integer without a cast
-lSLF07#2@52"Compile /www/Cities/app/Classes/RootViewController.m312863411#312863411#0(481"/www/Cities/app/Classes/RootViewController.m: In function '-[RootViewController mapView:viewForAnnotation:]':/www/Cities/app/Classes/RootViewController.m:171: warning: passing argument 1 of 'setTag:' makes integer from pointer without a cast/www/Cities/app/Classes/RootViewController.m: In function '-[RootViewController annotationViewClick:]':/www/Cities/app/Classes/RootViewController.m:187: warning: passing argument 1 of 'setCity:' makes pointer from integer without a cast2(22@73"Passing argument 1 of 'setTag:' makes integer from pointer without a cast312863411#110#133#0(6@44"/www/Cities/app/Classes/RootViewController.m312863398#171#0#171#0#67"passing argument * of '*' makes integer from pointer without a cast0(22@74"Passing argument 1 of 'setCity:' makes pointer from integer without a cast312863411#347#134#0(6@44"/www/Cities/app/Classes/RootViewController.m312863398#187#0#187#0#0"0(0#0#44"/www/Cities/app/Classes/RootViewController.m8635783680#1487"    cd /www/Cities/app    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Cities-generated-files.hmap -I/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Cities-own-target-headers.hmap -I/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Cities-all-target-headers.hmap -iquote /www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Cities-project-headers.hmap -F/www/Cities/app/build/Debug-iphoneos -I/www/Cities/app/build/Debug-iphoneos/include -I/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/DerivedSources/armv7 -I/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/DerivedSources -include /var/folders/uP/uPiio+UoGhC+MZOWSeIBw++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cities_Prefix-auskwqynjbbkhidcdrjshjhsacuo/Cities_Prefix.pch -c /www/Cities/app/Classes/RootViewController.m -o /www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv7/RootViewController.o0#
+o/www/Cities/app/Classes/RootViewController.m:193: warning: passing argument 1 of 'setCity:' makes pointer from integer without a cast
+lSLF07#2@52"Compile /www/Cities/app/Classes/RootViewController.m313226415#313226415#0(481"/www/Cities/app/Classes/RootViewController.m: In function '-[RootViewController mapView:viewForAnnotation:]':/www/Cities/app/Classes/RootViewController.m:177: warning: passing argument 1 of 'setTag:' makes integer from pointer without a cast/www/Cities/app/Classes/RootViewController.m: In function '-[RootViewController annotationViewClick:]':/www/Cities/app/Classes/RootViewController.m:193: warning: passing argument 1 of 'setCity:' makes pointer from integer without a cast2(22@73"Passing argument 1 of 'setTag:' makes integer from pointer without a cast313226415#110#133#0(6@44"/www/Cities/app/Classes/RootViewController.m313226414#177#0#177#0#67"passing argument * of '*' makes integer from pointer without a cast0(22@74"Passing argument 1 of 'setCity:' makes pointer from integer without a cast313226415#347#134#0(6@44"/www/Cities/app/Classes/RootViewController.m313226414#193#0#193#0#0"0(0#0#44"/www/Cities/app/Classes/RootViewController.m8621719488#1487"    cd /www/Cities/app    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch armv7 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -fvisibility=hidden -gdwarf-2 -mthumb -miphoneos-version-min=4.2 -iquote /www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Cities-generated-files.hmap -I/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Cities-own-target-headers.hmap -I/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Cities-all-target-headers.hmap -iquote /www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Cities-project-headers.hmap -F/www/Cities/app/build/Debug-iphoneos -I/www/Cities/app/build/Debug-iphoneos/include -I/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/DerivedSources/armv7 -I/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/DerivedSources -include /var/folders/uP/uPiio+UoGhC+MZOWSeIBw++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Cities_Prefix-auskwqynjbbkhidcdrjshjhsacuo/Cities_Prefix.pch -c /www/Cities/app/Classes/RootViewController.m -o /www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv7/RootViewController.o0#
 
 CCompileC build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv7/main.o /www/Cities/app/main.m normal armv7 objective-c com.apple.compilers.gcc.4_2
 s312860559.768504
@@ -1021,7 +1022,12 @@ x/www/Cities/RootViewController.xib
 lSLF07#2@33"CompileXIB RootViewController.xib312853040#312853041#0(0"0(0#0#34"/www/Cities/RootViewController.xib8611852992#476"    cd /www/Cities    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /www/Cities/build/Debug-iphoneos/Cities.app/RootViewController.nib /www/Cities/RootViewController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
 
 CCompileXIB /www/Cities/app/Classes/CityController.xib
-r0
+s313225761.282472
+e313225768.676674
+r1
+xCompileXIB
+x/www/Cities/app/Classes/CityController.xib
+lSLF07#2@37"CompileXIB Classes/CityController.xib313225761#313225768#0(0"0(0#0#42"/www/Cities/app/Classes/CityController.xib8608944128#488"    cd /www/Cities/app    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /www/Cities/app/build/Debug-iphoneos/Cities.app/CityController.nib /www/Cities/app/Classes/CityController.xib --sdk /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk0#
 
 CCompileXIB /www/Cities/app/MainWindow.xib
 r0
@@ -1090,23 +1096,23 @@ xsmall.jpg
 lSLF07#2@14"Copy small.jpg312853041#312853041#0(0"0(0#0#21"/www/Cities/small.jpg8610973792#371"    cd /www/Cities    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /www/Cities/small.jpg /www/Cities/build/Debug-iphoneos/Cities.app0#
 
 CCpResource build/Debug-iphoneos/Cities.app/www www
-s312863884.833757
-e312863884.846890
+s313225761.285246
+e313225767.372035
 r1
 xCpResource
 xbuild/Debug-iphoneos/Cities.app/www
 xwww
-lSLF07#2@8"Copy www312863884#312863884#0(0"0(0#0#19"/www/Cities/app/www8647135776#377"    cd /www/Cities/app    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /www/Cities/app/www /www/Cities/app/build/Debug-iphoneos/Cities.app0#
+lSLF07#2@8"Copy www313225761#313225767#0(0"0(0#0#19"/www/Cities/app/www8608800768#377"    cd /www/Cities/app    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /www/Cities/app/www /www/Cities/app/build/Debug-iphoneos/Cities.app0#
 
 CCreateUniversalBinary /www/Cities/app/build/Debug-iphoneos/Cities.app/Cities normal "armv6 armv7"
-s312863800.873496
-e312863800.876694
+s313226415.939932
+e313226415.953966
 r1
 xCreateUniversalBinary
 x/www/Cities/app/build/Debug-iphoneos/Cities.app/Cities
 xnormal
 xarmv6 armv7
-lSLF07#2@81"CreateUniversalBinary build/Debug-iphoneos/Cities.app/Cities normal "armv6 armv7"312863800#312863800#0(0"0(0#0#27"/www/Cities/app/armv6 armv78638409888#418"    cd /www/Cities/app    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv6/Cities /www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv7/Cities -output /www/Cities/app/build/Debug-iphoneos/Cities.app/Cities0#
+lSLF07#2@81"CreateUniversalBinary build/Debug-iphoneos/Cities.app/Cities normal "armv6 armv7"313226415#313226415#0(0"0(0#0#27"/www/Cities/app/armv6 armv78621110176#418"    cd /www/Cities/app    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv6/Cities /www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv7/Cities -output /www/Cities/app/build/Debug-iphoneos/Cities.app/Cities0#
 
 CCreateUniversalBinary /www/Cities/build/Debug-iphoneos/Cities.app/Cities normal "armv6 armv7"
 s312853380.030897
@@ -1119,13 +1125,13 @@ xarmv6 armv7
 lSLF07#2@81"CreateUniversalBinary build/Debug-iphoneos/Cities.app/Cities normal "armv6 armv7"312853380#312853380#0(0"0(0#0#23"/www/Cities/armv6 armv78624791040#402"    cd /www/Cities    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/lipo -create /www/Cities/build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv6/Cities /www/Cities/build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv7/Cities -output /www/Cities/build/Debug-iphoneos/Cities.app/Cities0#
 
 CGenerateDSYMFile /www/Cities/app/build/Debug-iphoneos/Cities.app.dSYM /www/Cities/app/build/Debug-iphoneos/Cities.app/Cities
-s312863800.876775
-e312863800.908643
+s313226415.954058
+e313226416.163724
 r1
 xGenerateDSYMFile
 x/www/Cities/app/build/Debug-iphoneos/Cities.app.dSYM
 x/www/Cities/app/build/Debug-iphoneos/Cities.app/Cities
-lSLF07#2@92"GenerateDSYMFile build/Debug-iphoneos/Cities.app.dSYM build/Debug-iphoneos/Cities.app/Cities312863800#312863800#0(0"0(0#0#54"/www/Cities/app/build/Debug-iphoneos/Cities.app/Cities8642895488#290"    cd /www/Cities/app    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /www/Cities/app/build/Debug-iphoneos/Cities.app/Cities -o /www/Cities/app/build/Debug-iphoneos/Cities.app.dSYM0#
+lSLF07#2@92"GenerateDSYMFile build/Debug-iphoneos/Cities.app.dSYM build/Debug-iphoneos/Cities.app/Cities313226415#313226416#0(0"0(0#0#54"/www/Cities/app/build/Debug-iphoneos/Cities.app/Cities8621769536#290"    cd /www/Cities/app    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /www/Cities/app/build/Debug-iphoneos/Cities.app/Cities -o /www/Cities/app/build/Debug-iphoneos/Cities.app.dSYM0#
 
 CGenerateDSYMFile /www/Cities/build/Debug-iphoneos/Cities.app.dSYM /www/Cities/build/Debug-iphoneos/Cities.app/Cities
 s312853380.044220
@@ -1137,24 +1143,24 @@ x/www/Cities/build/Debug-iphoneos/Cities.app/Cities
 lSLF07#2@92"GenerateDSYMFile build/Debug-iphoneos/Cities.app.dSYM build/Debug-iphoneos/Cities.app/Cities312853380#312853380#0(0"0(0#0#50"/www/Cities/build/Debug-iphoneos/Cities.app/Cities8619218816#278"    cd /www/Cities    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /www/Cities/build/Debug-iphoneos/Cities.app/Cities -o /www/Cities/build/Debug-iphoneos/Cities.app.dSYM0#
 
 CLd /www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv6/Cities normal armv6
-s312863800.827691
-e312863800.873265
+s313226415.420864
+e313226415.590612
 r1
 xLd
 x/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv6/Cities
 xnormal
 xarmv6
-lSLF07#2@95"Link /www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv6/Cities312863800#312863800#0(0"0(0#0#0"8634425728#776"    cd /www/Cities/app    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/www/Cities/app/build/Debug-iphoneos -F/www/Cities/app/build/Debug-iphoneos -filelist /www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv6/Cities.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework MapKit -framework CoreData -o /www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv6/Cities0#
+lSLF07#2@95"Link /www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv6/Cities313226415#313226415#0(0"0(0#0#0"8622209664#776"    cd /www/Cities/app    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv6 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/www/Cities/app/build/Debug-iphoneos -F/www/Cities/app/build/Debug-iphoneos -filelist /www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv6/Cities.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework MapKit -framework CoreData -o /www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv6/Cities0#
 
 CLd /www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv7/Cities normal armv7
-s312863800.822296
-e312863800.864792
+s313226415.492370
+e313226415.939837
 r1
 xLd
 x/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv7/Cities
 xnormal
 xarmv7
-lSLF07#2@95"Link /www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv7/Cities312863800#312863800#0(0"0(0#0#0"8640822944#776"    cd /www/Cities/app    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/www/Cities/app/build/Debug-iphoneos -F/www/Cities/app/build/Debug-iphoneos -filelist /www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv7/Cities.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework MapKit -framework CoreData -o /www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv7/Cities0#
+lSLF07#2@95"Link /www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv7/Cities313226415#313226415#0(0"0(0#0#0"8621034048#776"    cd /www/Cities/app    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/www/Cities/app/build/Debug-iphoneos -F/www/Cities/app/build/Debug-iphoneos -filelist /www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv7/Cities.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework MapKit -framework CoreData -o /www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv7/Cities0#
 
 CLd /www/Cities/build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv6/Cities normal armv6
 s312853379.922095
@@ -1177,7 +1183,13 @@ xarmv7
 lSLF07#2@91"Link /www/Cities/build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv7/Cities312853379#312853380#0(0"0(0#0#0"8624250976#736"    cd /www/Cities    setenv IPHONEOS_DEPLOYMENT_TARGET 4.2    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneOS.platform/Developer/usr/bin/gcc-4.2 -arch armv7 -isysroot /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk -L/www/Cities/build/Debug-iphoneos -F/www/Cities/build/Debug-iphoneos -filelist /www/Cities/build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv7/Cities.LinkFileList -dead_strip -miphoneos-version-min=4.2 -framework Foundation -framework UIKit -framework CoreGraphics -framework MapKit -o /www/Cities/build/Cities.build/Debug-iphoneos/Cities.build/Objects-normal/armv7/Cities0#
 
 CProcessInfoPlistFile /www/Cities/app/build/Debug-iphoneos/Cities.app/Info.plist Cities-Info.plist
-r0
+s313225761.240338
+e313225761.282344
+r1
+xProcessInfoPlistFile
+x/www/Cities/app/build/Debug-iphoneos/Cities.app/Info.plist
+xCities-Info.plist
+lSLF07#2@25"Process Cities-Info.plist313225761#313225761#0(0"0(0#0#33"/www/Cities/app/Cities-Info.plist8609123424#466"    cd /www/Cities/app    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility Cities-Info.plist -genpkginfo /www/Cities/app/build/Debug-iphoneos/Cities.app/PkgInfo -expandbuildsettings -format binary -platform iphoneos -resourcerulesfile /www/Cities/app/build/Debug-iphoneos/Cities.app/ResourceRules.plist -o /www/Cities/app/build/Debug-iphoneos/Cities.app/Info.plist0#
 
 CProcessInfoPlistFile /www/Cities/build/Debug-iphoneos/Cities.app/Info.plist Cities-Info.plist
 s312853040.167965
@@ -1288,7 +1300,13 @@ x/www/Cities/build/Cities.build/Debug-iphoneos/Cities.build/Cities.xcent
 lSLF07#2@172"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist build/Cities.build/Debug-iphoneos/Cities.build/Cities.xcent312848853#312848853#0(0"0(0#0#71"/www/Cities/build/Cities.build/Debug-iphoneos/Cities.build/Cities.xcent8617394496#375"    cd /www/Cities    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.1.sdk/Entitlements.plist -entitlements -format xml -o /www/Cities/build/Cities.build/Debug-iphoneos/Cities.build/Cities.xcent0#
 
 CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Cities.xcent
-r0
+s313225774.142998
+e313225774.171479
+r1
+xProcessProductPackaging
+x/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist
+x/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Cities.xcent
+lSLF07#2@172"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/Cities.build/Debug-iphoneos/Cities.build/Cities.xcent313225774#313225774#0(0"0(0#0#75"/www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Cities.xcent8601434464#383"    cd /www/Cities/app    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /www/Cities/app/build/Cities.build/Debug-iphoneos/Cities.build/Cities.xcent0#
 
 CProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist /www/Cities/build/Cities.build/Debug-iphoneos/Cities.build/Cities.xcent
 s312853045.429031
@@ -1300,12 +1318,12 @@ x/www/Cities/build/Cities.build/Debug-iphoneos/Cities.build/Cities.xcent
 lSLF07#2@172"ProcessProductPackaging /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist build/Cities.build/Debug-iphoneos/Cities.build/Cities.xcent312853045#312853045#0(0"0(0#0#71"/www/Cities/build/Cities.build/Debug-iphoneos/Cities.build/Cities.xcent8611572640#375"    cd /www/Cities    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    <com.apple.tools.product-pkg-utility> /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS4.2.sdk/Entitlements.plist -entitlements -format xml -o /www/Cities/build/Cities.build/Debug-iphoneos/Cities.build/Cities.xcent0#
 
 CTouch /www/Cities/app/build/Debug-iphoneos/Cities.app
-s312863884.848821
-e312863884.852237
+s313226416.163862
+e313226416.179405
 r1
 xTouch
 x/www/Cities/app/build/Debug-iphoneos/Cities.app
-lSLF07#2@53"Touch /www/Cities/app/build/Debug-iphoneos/Cities.app312863884#312863884#0(0"0(0#0#0"8646992608#217"    cd /www/Cities/app    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /www/Cities/app/build/Debug-iphoneos/Cities.app0#
+lSLF07#2@53"Touch /www/Cities/app/build/Debug-iphoneos/Cities.app313226416#313226416#0(0"0(0#0#0"8621878752#217"    cd /www/Cities/app    setenv PATH "/Developer/Platforms/iPhoneOS.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /www/Cities/app/build/Debug-iphoneos/Cities.app0#
 
 CTouch /www/Cities/build/Debug-iphoneos/Cities.app
 s312853380.212261
