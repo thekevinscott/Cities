@@ -90,7 +90,7 @@
 		</data>
 		<key>www/images/navBar.png</key>
 		<data>
-		N9Ma+PR7y0jgz9p9Os8f2mqPUQA=
+		Iu0nPB/F1floXZhaGGeL9PEZyzg=
 		</data>
 		<key>www/images/redArrow.png</key>
 		<data>
@@ -106,15 +106,15 @@
 		</data>
 		<key>www/index.html</key>
 		<data>
-		boYojdK3auWSt4YxgEsfPQjMs3Y=
+		39JSgH3hAmk6rnyEKUa8znbXHpk=
+		</data>
+		<key>www/js/cities.js</key>
+		<data>
+		zExifsuKzkyDm7lU204Nzo2/AX0=
 		</data>
 		<key>www/js/city.js</key>
 		<data>
-		9IZAqiGkfB3IEpWFAJznF1skYn4=
-		</data>
-		<key>www/js/city2.js</key>
-		<data>
-		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+		b3i2WxxLGoAtI+HXSx5+JIpnMTI=
 		</data>
 		<key>www/js/jquery.1.4.4.js</key>
 		<data>
@@ -124,9 +124,9 @@
 		<data>
 		a8nskZmvvlS1y5YjwQG/z0hAMso=
 		</data>
-		<key>www/js/layout.js</key>
+		<key>www/js/lib.js</key>
 		<data>
-		Q8OgxkR+aQPwz9UeAeuZqk73/RY=
+		wj/Nt1TETEh4vZkqp/FsU02qcLQ=
 		</data>
 		<key>www/old/Portland_Oregon.html</key>
 		<data>
@@ -630,7 +630,7 @@
 		</data>
 		<key>www/style.css</key>
 		<data>
-		Sa5+yueXhN38JZeckGNMxJiJykg=
+		2Ypl8fnD4KFj1g1SrSbp9nkzvQQ=
 		</data>
 	</dict>
 	<key>rules</key>

@@ -10,14 +10,14 @@ var articles = function() {
 }();
 
 var feeds = function() {
-	var radius = "25km";
+	var radius = "1000km";
 	var limit = 2;
 	
 	var feed = {};
 	var feedCount = 0;
 	
 	// pull twitter
-	var twitter = $.getJSON("http://search.twitter.com/search.json?geocode="+latitude+","+longitude+","+radius+"&language=english&callback=?", function(data){
+	var twitter = $.getJSON("http://search.twitter.com/search.json?geocode="+latitude+","+longitude+","+radius+"&lang=en&callback=?", function(data){
 		if (data && data.results) {
 			cities.feed.updateFeedData('twitter',data.results);
 			
@@ -180,31 +180,41 @@ var cities = function() {
 		
 		var flickrkey = 'e4ed6a6662d84096dcf7a555ce8e5b0d';
 		
-		var flickr = $.getJSON("http://api.flickr.com/services/rest/?method=flickr.photos.search&api_key="+flickrkey+"&has_geo=1&lat="+latitude+"&lon="+longitude+"&radius=20&radius_units=mi&format=json&extras=url_sq,url_t,url_s,url_m,url_o,date_upload&sort=date-posted-desc&min_upload_date=0&per_page=50&jsoncallback=?",function(data){
+		var per_page = 128;
+		
+		var flickr = $.getJSON("http://api.flickr.com/services/rest/?method=flickr.photos.search&api_key="+flickrkey+"&has_geo=1&lat="+latitude+"&lon="+longitude+"&radius=20&radius_units=mi&format=json&extras=url_sq,url_t,url_s,url_m,url_o,date_upload&sort=date-posted-desc&min_upload_date=0&per_page="+per_page+"&jsoncallback=?",function(data){
 			if (data && data.photos && data.photos.photo) {
 				$(data.photos.photo).each(function(){
 					var a = $('<a />');
-					a.html('<img src="'+this.url_s+'" width="'+this.width_s+'" height="'+this.height_s+'" />');
+					a.html('<img src="'+this.url_sq+'" width="'+this.width_sq+'" height="'+this.height_sq+'" />');
 					$('#photos').append(a);
 					var ths = this;
 					$(a).click(function(){
 						var origImg = $('<img />');
+						var floatImgDiv = $('<div class="floatImg"></div>');
 						var floatImg = $('<img />');
+						
 						origImg.attr('src',ths.url_o);
 						origImg.load(function(){
+							
 							floatImg.attr('src',$(this).attr('src'));
 						});
 						
 						var img = $(this).find('img');
-						floatImg.attr('src',img.attr('src')).css({position:'absolute',top:img.position().top,left:img.position().left});
-						floatImg.animate({width:'100%',height:'100%',marginLeft:-1*img.position().left,marginTop:-1*img.position().top});
-						$('body').append(floatImg);
+						var height = img.height();
+						var width = img.width();
 						
-
-
-						//$('body').append("<img ");
-						//console.log(img);
-						//$(this).find('img').animate({width:'768px',height:'1024px'});
+						var ratio = $('body').height()/height;
+						
+						
+						floatImgDiv.html(floatImg);
+						floatImg.attr('src',img.attr('src'));
+						floatImgDiv.css({position:'absolute',top:img.position().top,left:img.position().left});
+						floatImgDiv.animate({width:'100%',height:'100%',marginLeft:-1*img.position().left,marginTop:-1*img.position().top});
+						floatImgDiv.append('<div class="loading"><img src="images/loading.gif" /></div>');
+						floatImg.animate({height:$('body').height(),width:width*ratio,left:'50%',marginLeft:(width*ratio)/-2});
+						$('body').append(floatImgDiv);
+						
 					});
 				});
 				$('#photos').append('<br class="c" />');

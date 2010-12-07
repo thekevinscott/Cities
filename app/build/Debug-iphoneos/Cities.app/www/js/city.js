@@ -125,11 +125,7 @@ $.fn.extend({
 
 function run(data) {
 	city.data = data;
-	if ($('#feed').height()>$('#articles').height()) {
-		$('#articles').height($('#feed').height());
-	} else {
-		$('#feed').height($('#articles').height());
-	}
+	
 	
 	
 	//cityTitle = cityTitle.replace(' ','_');

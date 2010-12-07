@@ -43,7 +43,7 @@
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
 - (void)viewDidLoad {
     [super viewDidLoad];
-	
+	NSLog(@"HOLLA");
 	
 	cities = [NSMutableArray arrayWithCapacity: 50];
 	

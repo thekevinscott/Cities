@@ -2,72 +2,22 @@
 <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" xml:lang="en-US"> 
     <head> 
 		<meta name="viewport" content="width=device-width, maximum-scale=1.0, user-scalable=no" />	
-        <link rel="stylesheet" type="text/css" media="all" href="style.css" />
+		<link rel="stylesheet" href="global.css" type="text/css" media="screen" title="no title" charset="utf-8" />
+        <link rel="stylesheet" type="text/css" media="all" href="title.css" />
 		<link rel="stylesheet" media="all and (orientation:portrait)" href="portrait.css">
+
 	</head> 
 	<body>
-		<div id="cities">
-			
-			<div id="navBar">
-				<a href="#"><img src="images/iconArticles.png" /></a>
-				<a href="#"><img src="images/iconNews.png" /></a>
-				<a href="#"><img src="images/iconPhotos.png" /></a>
-				<a href="#"><img src="images/iconVideos.png" /></a>
-				<a href="#"><img src="images/iconTwitter.png" /></a>				
-				
-			</div>
-			
-			<div id="contentWrapper">				
-				<div id="gradient"></div>
-				<div id="content">
-					<h1 id="header">
-						New York City
-					</h1>
-					<hr />
-					
-					<div id="feed">
-						<h3>City Feed</h3>
-						<hr class="short" />
-					</div><!-- feed -->
-					<div id="articles">
-						<div id="mainArticle">
-							<div class="img">
-							</div>
-							<p><span class="dropCap">N</span>ew York is the most populous city in the United States, and the center of the New York metropolitan area, which is one of the most populous metropolitan areas in the world. The largest city in the USA, New York City has a significant impact on global commerce, finance, media, culture, art, fashion, research, education, and entertainment. As host of the United Nations Headquarters, it is also an important center for international affairs. The city is often referred to as New York City or the City of New York to distinguish it from the state of New York, of which it is a part.</p>
-						</div><!-- mainArticle -->
-						<hr />
-					</div><!-- articles -->
-					<div class="c"></div>
-					
-				</div><!-- content -->
-				
-				<div style="display: none;">
-					<div id="mainStory">
-						<div id="mainStoryImage">
-							<h1 id="title"></h1>
-							<div id="slideshow"></div><div id="options"><p class="caption">John Goodman</p></div>
-						</div>
-						<div id="introduction"><a href="#">Read More</a></div>
-					</div>
-					<div id="sections">
-						<div class="story">
-							<h3>Index</h3>
-							<p>Videos.............................A4</p>
-							<p>Twitter.............................E1</p>
-							<p>Events.............................D2</p>
-							<p>News.............................B4</p>
-							<p>Flickr.............................C1</p>
-							<p>Food.............................C1</p>
-							<p>Stories.............................C1</p>
-						</div>
-					</div>
-				</div>
-			</div><!-- content -->
-		</div><!-- cities -->
 		<script type="text/javascript" charset="utf-8" src="js/jquery.1.4.4.js"></script>
-		<script type="text/javascript" charset="utf-8" src="js/lib.js"></script>	
 		<script type="text/javascript" charset="utf-8" src="js/cities.js"></script>
-		<script type="text/javascript" charset="utf-8" src="js/city.js"></script>	
-		
+		<script type="text/javascript" charset="utf-8">
+			// for testing purposes; comment this out in xcode
+			/*
+			cities.main({
+				city: "New York City",
+				state: "NY"
+			});
+			*/
+		</script>
 	</body>
 </html>

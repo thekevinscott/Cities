@@ -117,7 +117,7 @@
 	}
 	NSLog(@"%@",cityState);
 	
-	[webview stringByEvaluatingJavaScriptFromString:[NSString stringWithFormat:@"run(%@)",data]];
+	//[webview stringByEvaluatingJavaScriptFromString:[NSString stringWithFormat:@"run(%@)",data]];
 	[data release];
 	//[cityState release];
 	//NSLog(@"Here");

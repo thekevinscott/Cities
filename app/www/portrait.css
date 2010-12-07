@@ -1,0 +1,10 @@
+#title {
+	width: 768px; 
+	height: 1024px; 
+	overflow: hidden; 
+	margin: 0 auto;
+}
+
+#title #bg {
+	margin-top: 0;
+}
